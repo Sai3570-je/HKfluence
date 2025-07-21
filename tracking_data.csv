@@ -1,0 +1,501 @@
+tracking_id,source,campaign,influencer_id,user_id,product,brand,date,orders,revenue
+TRK_001,influencer_campaign,Campaign_6,INF_042,USER_7180,Kids Nutrition,MuscleBlaze,2025-03-06,1,34.69
+TRK_002,influencer_campaign,Campaign_3,INF_025,USER_3639,Pre-workout,MuscleBlaze,2025-04-06,1,130.83
+TRK_003,influencer_campaign,Campaign_3,INF_008,USER_7980,Multivitamin,HKVitals,2025-06-19,1,98.06
+TRK_004,influencer_campaign,Campaign_8,INF_018,USER_2921,BCAA,Gritzo,2025-07-20,1,79.82
+TRK_005,influencer_campaign,Campaign_6,INF_028,USER_6079,Kids Nutrition,MuscleBlaze,2025-03-27,1,59.7
+TRK_006,influencer_campaign,Campaign_5,INF_007,USER_0159,Multivitamin,MuscleBlaze,2025-05-07,1,51.35
+TRK_007,influencer_campaign,Campaign_4,INF_024,USER_0956,Multivitamin,MuscleBlaze,2025-07-18,1,133.18
+TRK_008,influencer_campaign,Campaign_5,INF_032,USER_5632,Creatine,HKVitals,2025-06-05,1,98.95
+TRK_009,influencer_campaign,Campaign_3,INF_015,USER_1395,Multivitamin,HKVitals,2025-02-26,1,137.9
+TRK_010,influencer_campaign,Campaign_8,INF_012,USER_2959,Whey Protein,Gritzo,2025-07-01,1,132.13
+TRK_011,influencer_campaign,Campaign_7,INF_026,USER_9132,Pre-workout,HKVitals,2025-02-28,1,92.96
+TRK_012,influencer_campaign,Campaign_6,INF_002,USER_4649,Pre-workout,HKVitals,2025-06-19,1,94.35
+TRK_013,influencer_campaign,Campaign_9,INF_047,USER_3156,Multivitamin,Gritzo,2025-03-06,1,112.67
+TRK_014,influencer_campaign,Campaign_9,INF_006,USER_8220,Multivitamin,Gritzo,2025-07-15,1,90.39
+TRK_015,influencer_campaign,Campaign_8,INF_037,USER_4556,Creatine,MuscleBlaze,2025-02-25,1,78.53
+TRK_016,influencer_campaign,Campaign_3,INF_023,USER_0630,Pre-workout,HKVitals,2025-04-08,1,62.24
+TRK_017,influencer_campaign,Campaign_9,INF_029,USER_9473,Fish Oil,Gritzo,2025-03-02,1,140.49
+TRK_018,influencer_campaign,Campaign_6,INF_012,USER_6100,Creatine,MuscleBlaze,2025-02-21,1,65.46
+TRK_019,influencer_campaign,Campaign_8,INF_043,USER_2204,Kids Nutrition,Gritzo,2025-04-10,1,171.95
+TRK_020,influencer_campaign,Campaign_4,INF_006,USER_3954,Pre-workout,HKVitals,2025-06-08,1,117.18
+TRK_021,influencer_campaign,Campaign_1,INF_009,USER_6263,BCAA,HKVitals,2025-03-29,1,188.59
+TRK_022,influencer_campaign,Campaign_1,INF_037,USER_1230,Creatine,HKVitals,2025-04-20,1,76.91
+TRK_023,influencer_campaign,Campaign_9,INF_020,USER_7474,Fish Oil,MuscleBlaze,2025-04-04,1,23.13
+TRK_024,influencer_campaign,Campaign_4,INF_039,USER_1970,Multivitamin,Gritzo,2025-03-30,1,45.14
+TRK_025,influencer_campaign,Campaign_8,INF_008,USER_6813,Pre-workout,MuscleBlaze,2025-05-16,1,36.9
+TRK_026,influencer_campaign,Campaign_1,INF_047,USER_5239,Multivitamin,Gritzo,2025-05-17,1,65.96
+TRK_027,influencer_campaign,Campaign_8,INF_010,USER_0303,Whey Protein,Gritzo,2025-06-14,1,63.95
+TRK_028,influencer_campaign,Campaign_1,INF_008,USER_3073,BCAA,Gritzo,2025-05-20,1,144.11
+TRK_029,influencer_campaign,Campaign_5,INF_016,USER_8126,Creatine,HKVitals,2025-07-12,1,90.9
+TRK_030,influencer_campaign,Campaign_9,INF_050,USER_5209,Fish Oil,MuscleBlaze,2025-04-24,1,195.89
+TRK_031,influencer_campaign,Campaign_6,INF_013,USER_1668,Pre-workout,Gritzo,2025-04-29,1,137.09
+TRK_032,influencer_campaign,Campaign_7,INF_006,USER_9043,Fish Oil,Gritzo,2025-05-13,1,178.02
+TRK_033,influencer_campaign,Campaign_7,INF_001,USER_9817,Fish Oil,Gritzo,2025-05-19,1,73.44
+TRK_034,influencer_campaign,Campaign_5,INF_001,USER_2876,Fish Oil,MuscleBlaze,2025-05-07,1,129.77
+TRK_035,influencer_campaign,Campaign_3,INF_033,USER_6060,Pre-workout,HKVitals,2025-04-10,1,118.22
+TRK_036,influencer_campaign,Campaign_2,INF_011,USER_2990,Whey Protein,Gritzo,2025-05-30,1,50.32
+TRK_037,influencer_campaign,Campaign_2,INF_021,USER_1178,Whey Protein,MuscleBlaze,2025-03-18,1,191.27
+TRK_038,influencer_campaign,Campaign_4,INF_034,USER_8235,Kids Nutrition,HKVitals,2025-04-09,1,124.43
+TRK_039,influencer_campaign,Campaign_5,INF_046,USER_0407,BCAA,Gritzo,2025-06-08,1,191.99
+TRK_040,influencer_campaign,Campaign_9,INF_016,USER_8907,BCAA,Gritzo,2025-04-08,1,32.83
+TRK_041,influencer_campaign,Campaign_3,INF_004,USER_6013,Creatine,MuscleBlaze,2025-03-13,1,106.25
+TRK_042,influencer_campaign,Campaign_3,INF_046,USER_7312,Multivitamin,HKVitals,2025-03-19,1,187.33
+TRK_043,influencer_campaign,Campaign_4,INF_018,USER_2138,Whey Protein,HKVitals,2025-02-22,1,69.07
+TRK_044,influencer_campaign,Campaign_7,INF_011,USER_7053,Kids Nutrition,Gritzo,2025-02-27,1,142.6
+TRK_045,influencer_campaign,Campaign_4,INF_049,USER_9668,Pre-workout,Gritzo,2025-04-03,1,185.2
+TRK_046,influencer_campaign,Campaign_7,INF_001,USER_7286,Fish Oil,HKVitals,2025-06-20,1,114.77
+TRK_047,influencer_campaign,Campaign_8,INF_028,USER_5753,Fish Oil,HKVitals,2025-07-07,1,162.87
+TRK_048,influencer_campaign,Campaign_5,INF_008,USER_5700,Multivitamin,Gritzo,2025-04-10,1,62.64
+TRK_049,influencer_campaign,Campaign_9,INF_036,USER_0146,BCAA,HKVitals,2025-04-21,1,140.86
+TRK_050,influencer_campaign,Campaign_3,INF_033,USER_3180,Multivitamin,MuscleBlaze,2025-04-30,1,50.24
+TRK_051,influencer_campaign,Campaign_3,INF_021,USER_0988,Kids Nutrition,Gritzo,2025-07-20,1,24.25
+TRK_052,influencer_campaign,Campaign_9,INF_010,USER_7422,Whey Protein,HKVitals,2025-05-09,1,133.76
+TRK_053,influencer_campaign,Campaign_3,INF_035,USER_9770,Pre-workout,MuscleBlaze,2025-02-27,1,145.13
+TRK_054,influencer_campaign,Campaign_3,INF_039,USER_5700,Multivitamin,HKVitals,2025-03-16,1,43.11
+TRK_055,influencer_campaign,Campaign_4,INF_042,USER_7844,BCAA,MuscleBlaze,2025-03-24,1,69.35
+TRK_056,influencer_campaign,Campaign_9,INF_008,USER_0708,Fish Oil,MuscleBlaze,2025-05-28,1,60.8
+TRK_057,influencer_campaign,Campaign_5,INF_002,USER_7398,Multivitamin,Gritzo,2025-02-25,1,32.59
+TRK_058,influencer_campaign,Campaign_6,INF_044,USER_5250,Kids Nutrition,HKVitals,2025-06-25,1,102.23
+TRK_059,influencer_campaign,Campaign_4,INF_038,USER_0662,Creatine,HKVitals,2025-03-27,1,151.52
+TRK_060,influencer_campaign,Campaign_9,INF_036,USER_0208,Multivitamin,HKVitals,2025-05-08,1,134.29
+TRK_061,influencer_campaign,Campaign_1,INF_030,USER_3720,Creatine,Gritzo,2025-06-21,1,167.93
+TRK_062,influencer_campaign,Campaign_3,INF_016,USER_9733,Creatine,MuscleBlaze,2025-03-22,1,62.24
+TRK_063,influencer_campaign,Campaign_6,INF_030,USER_7122,Kids Nutrition,MuscleBlaze,2025-07-19,1,36.73
+TRK_064,influencer_campaign,Campaign_4,INF_016,USER_4577,Kids Nutrition,HKVitals,2025-03-30,1,48.67
+TRK_065,influencer_campaign,Campaign_2,INF_045,USER_2497,BCAA,Gritzo,2025-04-27,1,88.56
+TRK_066,influencer_campaign,Campaign_6,INF_023,USER_4438,Creatine,MuscleBlaze,2025-04-16,1,49.12
+TRK_067,influencer_campaign,Campaign_6,INF_042,USER_8786,Fish Oil,Gritzo,2025-03-04,1,187.51
+TRK_068,influencer_campaign,Campaign_7,INF_030,USER_7694,Whey Protein,Gritzo,2025-07-04,1,45.43
+TRK_069,influencer_campaign,Campaign_3,INF_021,USER_7374,Creatine,HKVitals,2025-04-27,1,47.68
+TRK_070,influencer_campaign,Campaign_6,INF_010,USER_4260,Kids Nutrition,HKVitals,2025-03-17,1,123.53
+TRK_071,influencer_campaign,Campaign_4,INF_001,USER_2531,Whey Protein,HKVitals,2025-06-10,1,181.69
+TRK_072,influencer_campaign,Campaign_8,INF_025,USER_2965,Multivitamin,MuscleBlaze,2025-07-11,1,86.16
+TRK_073,influencer_campaign,Campaign_4,INF_015,USER_5778,Fish Oil,Gritzo,2025-04-29,1,34.39
+TRK_074,influencer_campaign,Campaign_2,INF_006,USER_5180,Kids Nutrition,Gritzo,2025-05-24,1,23.18
+TRK_075,influencer_campaign,Campaign_9,INF_031,USER_4738,Pre-workout,Gritzo,2025-02-25,1,160.54
+TRK_076,influencer_campaign,Campaign_7,INF_050,USER_5449,Creatine,HKVitals,2025-04-17,1,73.52
+TRK_077,influencer_campaign,Campaign_1,INF_046,USER_1639,Whey Protein,MuscleBlaze,2025-06-15,1,52.0
+TRK_078,influencer_campaign,Campaign_4,INF_039,USER_0420,Creatine,HKVitals,2025-06-24,1,75.13
+TRK_079,influencer_campaign,Campaign_3,INF_039,USER_1550,Kids Nutrition,MuscleBlaze,2025-04-24,1,162.58
+TRK_080,influencer_campaign,Campaign_2,INF_022,USER_7899,Fish Oil,HKVitals,2025-07-03,1,21.99
+TRK_081,influencer_campaign,Campaign_7,INF_038,USER_7994,Kids Nutrition,MuscleBlaze,2025-05-10,1,124.79
+TRK_082,influencer_campaign,Campaign_2,INF_001,USER_7381,Fish Oil,HKVitals,2025-03-05,1,22.18
+TRK_083,influencer_campaign,Campaign_4,INF_037,USER_5888,Kids Nutrition,MuscleBlaze,2025-07-09,1,101.79
+TRK_084,influencer_campaign,Campaign_2,INF_026,USER_4840,BCAA,MuscleBlaze,2025-03-26,1,78.44
+TRK_085,influencer_campaign,Campaign_1,INF_029,USER_4201,Whey Protein,MuscleBlaze,2025-04-03,1,161.3
+TRK_086,influencer_campaign,Campaign_1,INF_041,USER_7178,Multivitamin,HKVitals,2025-06-29,1,165.6
+TRK_087,influencer_campaign,Campaign_7,INF_040,USER_0776,BCAA,HKVitals,2025-03-13,1,168.52
+TRK_088,influencer_campaign,Campaign_7,INF_008,USER_9048,Fish Oil,Gritzo,2025-05-10,1,180.09
+TRK_089,influencer_campaign,Campaign_8,INF_005,USER_3457,Fish Oil,Gritzo,2025-05-18,1,142.44
+TRK_090,influencer_campaign,Campaign_5,INF_024,USER_0366,Creatine,Gritzo,2025-03-09,1,192.17
+TRK_091,influencer_campaign,Campaign_3,INF_015,USER_8965,Pre-workout,HKVitals,2025-07-05,1,161.09
+TRK_092,influencer_campaign,Campaign_6,INF_032,USER_6512,Creatine,MuscleBlaze,2025-02-28,1,67.71
+TRK_093,influencer_campaign,Campaign_9,INF_031,USER_2377,Multivitamin,Gritzo,2025-07-06,1,158.46
+TRK_094,influencer_campaign,Campaign_4,INF_050,USER_9806,Whey Protein,MuscleBlaze,2025-04-10,1,65.97
+TRK_095,influencer_campaign,Campaign_2,INF_025,USER_2197,Creatine,Gritzo,2025-06-22,1,106.09
+TRK_096,influencer_campaign,Campaign_5,INF_040,USER_6304,Kids Nutrition,HKVitals,2025-02-22,1,128.34
+TRK_097,influencer_campaign,Campaign_8,INF_011,USER_7570,Kids Nutrition,MuscleBlaze,2025-03-02,1,80.89
+TRK_098,influencer_campaign,Campaign_9,INF_025,USER_2462,Creatine,MuscleBlaze,2025-04-20,1,119.02
+TRK_099,influencer_campaign,Campaign_1,INF_044,USER_7032,Fish Oil,Gritzo,2025-03-24,1,109.29
+TRK_100,influencer_campaign,Campaign_9,INF_032,USER_7698,Fish Oil,MuscleBlaze,2025-06-19,1,178.27
+TRK_101,influencer_campaign,Campaign_8,INF_021,USER_6382,Kids Nutrition,Gritzo,2025-06-26,1,171.56
+TRK_102,influencer_campaign,Campaign_9,INF_044,USER_7004,Fish Oil,MuscleBlaze,2025-05-17,1,155.57
+TRK_103,influencer_campaign,Campaign_4,INF_018,USER_8475,Multivitamin,Gritzo,2025-02-22,1,43.71
+TRK_104,influencer_campaign,Campaign_6,INF_015,USER_3755,Fish Oil,MuscleBlaze,2025-05-19,1,81.63
+TRK_105,influencer_campaign,Campaign_3,INF_033,USER_0023,Fish Oil,HKVitals,2025-02-23,1,73.56
+TRK_106,influencer_campaign,Campaign_5,INF_039,USER_6280,Multivitamin,HKVitals,2025-06-08,1,134.53
+TRK_107,influencer_campaign,Campaign_5,INF_016,USER_0515,Whey Protein,Gritzo,2025-05-03,1,64.4
+TRK_108,influencer_campaign,Campaign_9,INF_032,USER_3082,Fish Oil,HKVitals,2025-04-25,1,164.01
+TRK_109,influencer_campaign,Campaign_9,INF_039,USER_2548,Creatine,HKVitals,2025-04-27,1,83.97
+TRK_110,influencer_campaign,Campaign_1,INF_042,USER_1038,Whey Protein,HKVitals,2025-05-21,1,171.19
+TRK_111,influencer_campaign,Campaign_7,INF_020,USER_5190,BCAA,MuscleBlaze,2025-05-06,1,156.13
+TRK_112,influencer_campaign,Campaign_4,INF_004,USER_1930,Pre-workout,Gritzo,2025-06-11,1,100.75
+TRK_113,influencer_campaign,Campaign_6,INF_026,USER_2024,Kids Nutrition,MuscleBlaze,2025-03-29,1,139.35
+TRK_114,influencer_campaign,Campaign_9,INF_010,USER_5037,Creatine,MuscleBlaze,2025-03-30,1,50.04
+TRK_115,influencer_campaign,Campaign_3,INF_007,USER_4432,Multivitamin,Gritzo,2025-02-24,1,111.82
+TRK_116,influencer_campaign,Campaign_2,INF_004,USER_0594,BCAA,Gritzo,2025-06-20,1,128.63
+TRK_117,influencer_campaign,Campaign_3,INF_019,USER_0664,Fish Oil,HKVitals,2025-04-10,1,134.57
+TRK_118,influencer_campaign,Campaign_3,INF_038,USER_8624,Fish Oil,HKVitals,2025-06-17,1,161.95
+TRK_119,influencer_campaign,Campaign_1,INF_049,USER_2811,Creatine,Gritzo,2025-07-16,1,86.86
+TRK_120,influencer_campaign,Campaign_1,INF_047,USER_1284,Creatine,Gritzo,2025-04-18,1,187.96
+TRK_121,influencer_campaign,Campaign_7,INF_027,USER_3472,Fish Oil,MuscleBlaze,2025-07-13,1,93.78
+TRK_122,influencer_campaign,Campaign_1,INF_010,USER_6398,Pre-workout,MuscleBlaze,2025-04-11,1,49.75
+TRK_123,influencer_campaign,Campaign_3,INF_006,USER_6901,BCAA,HKVitals,2025-05-12,1,187.33
+TRK_124,influencer_campaign,Campaign_5,INF_035,USER_8000,Fish Oil,MuscleBlaze,2025-04-07,1,60.6
+TRK_125,influencer_campaign,Campaign_4,INF_021,USER_9818,Creatine,HKVitals,2025-05-05,1,188.72
+TRK_126,influencer_campaign,Campaign_1,INF_039,USER_2840,Whey Protein,HKVitals,2025-03-31,1,109.36
+TRK_127,influencer_campaign,Campaign_9,INF_041,USER_7711,Creatine,MuscleBlaze,2025-04-21,1,43.64
+TRK_128,influencer_campaign,Campaign_6,INF_036,USER_9436,Kids Nutrition,Gritzo,2025-06-08,1,28.03
+TRK_129,influencer_campaign,Campaign_6,INF_028,USER_2015,Multivitamin,MuscleBlaze,2025-03-06,1,64.92
+TRK_130,influencer_campaign,Campaign_4,INF_013,USER_9912,BCAA,HKVitals,2025-05-01,1,31.77
+TRK_131,influencer_campaign,Campaign_1,INF_043,USER_9615,Multivitamin,Gritzo,2025-03-13,1,115.84
+TRK_132,influencer_campaign,Campaign_5,INF_020,USER_1450,Multivitamin,HKVitals,2025-07-13,1,178.78
+TRK_133,influencer_campaign,Campaign_5,INF_037,USER_3671,Multivitamin,MuscleBlaze,2025-04-19,1,196.32
+TRK_134,influencer_campaign,Campaign_9,INF_024,USER_6589,Whey Protein,MuscleBlaze,2025-04-10,1,103.51
+TRK_135,influencer_campaign,Campaign_9,INF_050,USER_0598,Kids Nutrition,MuscleBlaze,2025-06-17,1,60.56
+TRK_136,influencer_campaign,Campaign_9,INF_017,USER_6567,Pre-workout,MuscleBlaze,2025-04-22,1,60.93
+TRK_137,influencer_campaign,Campaign_6,INF_017,USER_3649,Multivitamin,MuscleBlaze,2025-05-29,1,34.71
+TRK_138,influencer_campaign,Campaign_9,INF_005,USER_3138,Multivitamin,HKVitals,2025-02-22,1,139.55
+TRK_139,influencer_campaign,Campaign_7,INF_016,USER_8536,Kids Nutrition,HKVitals,2025-06-12,1,102.83
+TRK_140,influencer_campaign,Campaign_1,INF_010,USER_5056,Kids Nutrition,MuscleBlaze,2025-05-30,1,29.35
+TRK_141,influencer_campaign,Campaign_4,INF_020,USER_5775,Fish Oil,Gritzo,2025-06-27,1,156.52
+TRK_142,influencer_campaign,Campaign_9,INF_022,USER_6824,Multivitamin,HKVitals,2025-06-16,1,176.7
+TRK_143,influencer_campaign,Campaign_3,INF_049,USER_9260,Whey Protein,HKVitals,2025-04-27,1,31.74
+TRK_144,influencer_campaign,Campaign_7,INF_035,USER_6745,BCAA,HKVitals,2025-02-26,1,86.95
+TRK_145,influencer_campaign,Campaign_8,INF_043,USER_6412,Multivitamin,MuscleBlaze,2025-07-17,1,99.39
+TRK_146,influencer_campaign,Campaign_9,INF_036,USER_4655,Kids Nutrition,HKVitals,2025-05-16,1,76.22
+TRK_147,influencer_campaign,Campaign_6,INF_040,USER_2823,BCAA,MuscleBlaze,2025-04-03,1,100.57
+TRK_148,influencer_campaign,Campaign_8,INF_003,USER_6630,Whey Protein,MuscleBlaze,2025-03-19,1,69.84
+TRK_149,influencer_campaign,Campaign_5,INF_008,USER_2308,Pre-workout,HKVitals,2025-06-01,1,151.87
+TRK_150,influencer_campaign,Campaign_7,INF_046,USER_7184,Whey Protein,Gritzo,2025-03-11,1,178.83
+TRK_151,influencer_campaign,Campaign_2,INF_045,USER_1284,Creatine,HKVitals,2025-06-19,1,42.04
+TRK_152,influencer_campaign,Campaign_5,INF_031,USER_9753,BCAA,MuscleBlaze,2025-04-20,1,49.2
+TRK_153,influencer_campaign,Campaign_5,INF_004,USER_0227,Fish Oil,MuscleBlaze,2025-03-17,1,168.13
+TRK_154,influencer_campaign,Campaign_6,INF_009,USER_7545,BCAA,HKVitals,2025-06-16,1,185.28
+TRK_155,influencer_campaign,Campaign_5,INF_047,USER_9347,Creatine,HKVitals,2025-06-08,1,102.67
+TRK_156,influencer_campaign,Campaign_1,INF_026,USER_9173,BCAA,HKVitals,2025-03-13,1,40.33
+TRK_157,influencer_campaign,Campaign_9,INF_041,USER_2327,Pre-workout,MuscleBlaze,2025-04-12,1,101.06
+TRK_158,influencer_campaign,Campaign_3,INF_005,USER_8916,Fish Oil,HKVitals,2025-06-08,1,104.83
+TRK_159,influencer_campaign,Campaign_9,INF_002,USER_5780,Creatine,MuscleBlaze,2025-04-08,1,51.48
+TRK_160,influencer_campaign,Campaign_3,INF_008,USER_6660,Multivitamin,MuscleBlaze,2025-05-18,1,33.87
+TRK_161,influencer_campaign,Campaign_5,INF_047,USER_6371,Whey Protein,MuscleBlaze,2025-03-30,1,84.87
+TRK_162,influencer_campaign,Campaign_1,INF_046,USER_4647,Whey Protein,Gritzo,2025-07-12,1,182.65
+TRK_163,influencer_campaign,Campaign_7,INF_013,USER_9659,BCAA,HKVitals,2025-06-15,1,183.3
+TRK_164,influencer_campaign,Campaign_5,INF_046,USER_9032,Pre-workout,Gritzo,2025-03-30,1,60.81
+TRK_165,influencer_campaign,Campaign_4,INF_019,USER_8473,Pre-workout,HKVitals,2025-03-22,1,164.42
+TRK_166,influencer_campaign,Campaign_3,INF_038,USER_7790,BCAA,Gritzo,2025-07-20,1,174.5
+TRK_167,influencer_campaign,Campaign_4,INF_042,USER_7231,Whey Protein,Gritzo,2025-03-11,1,164.88
+TRK_168,influencer_campaign,Campaign_5,INF_019,USER_2724,Whey Protein,HKVitals,2025-07-12,1,59.32
+TRK_169,influencer_campaign,Campaign_4,INF_009,USER_1763,Whey Protein,Gritzo,2025-04-25,1,122.09
+TRK_170,influencer_campaign,Campaign_4,INF_014,USER_0988,Multivitamin,MuscleBlaze,2025-04-02,1,28.67
+TRK_171,influencer_campaign,Campaign_7,INF_046,USER_7184,Fish Oil,HKVitals,2025-05-17,1,180.61
+TRK_172,influencer_campaign,Campaign_2,INF_049,USER_1493,Kids Nutrition,MuscleBlaze,2025-03-04,1,124.91
+TRK_173,influencer_campaign,Campaign_3,INF_005,USER_7852,Whey Protein,MuscleBlaze,2025-04-09,1,169.65
+TRK_174,influencer_campaign,Campaign_1,INF_009,USER_4578,Whey Protein,MuscleBlaze,2025-07-07,1,140.46
+TRK_175,influencer_campaign,Campaign_9,INF_023,USER_6749,Pre-workout,MuscleBlaze,2025-05-07,1,183.92
+TRK_176,influencer_campaign,Campaign_3,INF_038,USER_1847,Kids Nutrition,HKVitals,2025-03-12,1,161.98
+TRK_177,influencer_campaign,Campaign_2,INF_012,USER_2008,Multivitamin,Gritzo,2025-04-28,1,137.4
+TRK_178,influencer_campaign,Campaign_6,INF_041,USER_7430,Pre-workout,MuscleBlaze,2025-02-21,1,68.41
+TRK_179,influencer_campaign,Campaign_6,INF_018,USER_8922,BCAA,Gritzo,2025-07-15,1,27.16
+TRK_180,influencer_campaign,Campaign_3,INF_042,USER_8334,BCAA,MuscleBlaze,2025-05-24,1,105.13
+TRK_181,influencer_campaign,Campaign_6,INF_020,USER_1326,Whey Protein,HKVitals,2025-04-17,1,126.36
+TRK_182,influencer_campaign,Campaign_1,INF_008,USER_4698,Kids Nutrition,MuscleBlaze,2025-04-04,1,171.91
+TRK_183,influencer_campaign,Campaign_6,INF_049,USER_6377,Whey Protein,MuscleBlaze,2025-04-23,1,91.42
+TRK_184,influencer_campaign,Campaign_5,INF_049,USER_2867,BCAA,Gritzo,2025-04-02,1,167.28
+TRK_185,influencer_campaign,Campaign_3,INF_041,USER_5003,Fish Oil,Gritzo,2025-03-31,1,108.84
+TRK_186,influencer_campaign,Campaign_3,INF_046,USER_6133,Fish Oil,MuscleBlaze,2025-04-06,1,91.02
+TRK_187,influencer_campaign,Campaign_5,INF_048,USER_4616,Whey Protein,Gritzo,2025-04-06,1,149.32
+TRK_188,influencer_campaign,Campaign_7,INF_046,USER_3761,Kids Nutrition,HKVitals,2025-05-18,1,149.16
+TRK_189,influencer_campaign,Campaign_4,INF_018,USER_0594,Fish Oil,Gritzo,2025-04-29,1,89.09
+TRK_190,influencer_campaign,Campaign_3,INF_047,USER_2703,Whey Protein,Gritzo,2025-05-15,1,182.06
+TRK_191,influencer_campaign,Campaign_2,INF_002,USER_1843,BCAA,MuscleBlaze,2025-03-21,1,142.16
+TRK_192,influencer_campaign,Campaign_6,INF_010,USER_7545,Kids Nutrition,Gritzo,2025-07-12,1,134.5
+TRK_193,influencer_campaign,Campaign_6,INF_020,USER_0387,Pre-workout,HKVitals,2025-06-17,1,182.44
+TRK_194,influencer_campaign,Campaign_1,INF_017,USER_7981,Kids Nutrition,HKVitals,2025-03-04,1,73.11
+TRK_195,influencer_campaign,Campaign_9,INF_037,USER_7447,Whey Protein,HKVitals,2025-04-23,1,120.56
+TRK_196,influencer_campaign,Campaign_2,INF_028,USER_6564,BCAA,MuscleBlaze,2025-03-13,1,144.65
+TRK_197,influencer_campaign,Campaign_2,INF_009,USER_1824,BCAA,Gritzo,2025-06-22,1,126.25
+TRK_198,influencer_campaign,Campaign_7,INF_028,USER_0360,BCAA,HKVitals,2025-05-10,1,156.68
+TRK_199,influencer_campaign,Campaign_7,INF_036,USER_3362,Creatine,MuscleBlaze,2025-06-24,1,143.91
+TRK_200,influencer_campaign,Campaign_4,INF_007,USER_5907,Fish Oil,HKVitals,2025-04-17,1,157.14
+TRK_201,influencer_campaign,Campaign_1,INF_018,USER_1830,Fish Oil,HKVitals,2025-06-26,1,127.28
+TRK_202,influencer_campaign,Campaign_6,INF_048,USER_1055,Creatine,MuscleBlaze,2025-06-16,1,124.44
+TRK_203,influencer_campaign,Campaign_8,INF_045,USER_0443,BCAA,Gritzo,2025-04-30,1,61.13
+TRK_204,influencer_campaign,Campaign_6,INF_045,USER_4459,BCAA,HKVitals,2025-02-24,1,37.87
+TRK_205,influencer_campaign,Campaign_5,INF_050,USER_4010,Fish Oil,HKVitals,2025-02-26,1,156.12
+TRK_206,influencer_campaign,Campaign_7,INF_037,USER_6790,Creatine,HKVitals,2025-06-24,1,76.51
+TRK_207,influencer_campaign,Campaign_4,INF_009,USER_1937,Fish Oil,HKVitals,2025-06-13,1,35.88
+TRK_208,influencer_campaign,Campaign_1,INF_004,USER_1933,Multivitamin,MuscleBlaze,2025-04-30,1,47.75
+TRK_209,influencer_campaign,Campaign_3,INF_022,USER_9570,Fish Oil,Gritzo,2025-04-14,1,170.06
+TRK_210,influencer_campaign,Campaign_5,INF_049,USER_8492,BCAA,Gritzo,2025-05-16,1,81.64
+TRK_211,influencer_campaign,Campaign_8,INF_004,USER_6627,Fish Oil,Gritzo,2025-06-29,1,124.48
+TRK_212,influencer_campaign,Campaign_1,INF_034,USER_3171,Creatine,HKVitals,2025-07-09,1,57.32
+TRK_213,influencer_campaign,Campaign_5,INF_040,USER_2568,Creatine,MuscleBlaze,2025-03-11,1,56.24
+TRK_214,influencer_campaign,Campaign_3,INF_017,USER_6208,BCAA,MuscleBlaze,2025-06-01,1,117.74
+TRK_215,influencer_campaign,Campaign_6,INF_034,USER_6539,Kids Nutrition,MuscleBlaze,2025-03-03,1,83.62
+TRK_216,influencer_campaign,Campaign_6,INF_017,USER_0883,BCAA,HKVitals,2025-03-12,1,104.02
+TRK_217,influencer_campaign,Campaign_6,INF_048,USER_7167,Kids Nutrition,HKVitals,2025-06-08,1,107.01
+TRK_218,influencer_campaign,Campaign_8,INF_036,USER_2455,Kids Nutrition,Gritzo,2025-06-02,1,114.04
+TRK_219,influencer_campaign,Campaign_4,INF_011,USER_9095,Fish Oil,Gritzo,2025-05-13,1,99.82
+TRK_220,influencer_campaign,Campaign_1,INF_048,USER_2385,Whey Protein,MuscleBlaze,2025-05-04,1,30.7
+TRK_221,influencer_campaign,Campaign_6,INF_032,USER_5443,BCAA,MuscleBlaze,2025-05-03,1,31.24
+TRK_222,influencer_campaign,Campaign_2,INF_013,USER_4118,Fish Oil,HKVitals,2025-03-23,1,152.13
+TRK_223,influencer_campaign,Campaign_5,INF_043,USER_2000,Creatine,HKVitals,2025-04-28,1,144.66
+TRK_224,influencer_campaign,Campaign_9,INF_041,USER_7902,Kids Nutrition,Gritzo,2025-03-27,1,57.93
+TRK_225,influencer_campaign,Campaign_1,INF_019,USER_8734,Kids Nutrition,Gritzo,2025-06-14,1,141.83
+TRK_226,influencer_campaign,Campaign_1,INF_001,USER_5669,Fish Oil,MuscleBlaze,2025-03-28,1,170.15
+TRK_227,influencer_campaign,Campaign_3,INF_009,USER_3176,Kids Nutrition,MuscleBlaze,2025-06-27,1,179.2
+TRK_228,influencer_campaign,Campaign_6,INF_034,USER_1099,BCAA,Gritzo,2025-06-28,1,143.73
+TRK_229,influencer_campaign,Campaign_3,INF_014,USER_5243,Pre-workout,HKVitals,2025-03-26,1,21.1
+TRK_230,influencer_campaign,Campaign_6,INF_040,USER_7356,Multivitamin,HKVitals,2025-07-15,1,110.11
+TRK_231,influencer_campaign,Campaign_2,INF_026,USER_2952,Kids Nutrition,HKVitals,2025-03-05,1,140.03
+TRK_232,influencer_campaign,Campaign_5,INF_027,USER_2369,Whey Protein,MuscleBlaze,2025-06-18,1,77.87
+TRK_233,influencer_campaign,Campaign_5,INF_030,USER_7481,Whey Protein,HKVitals,2025-03-05,1,128.63
+TRK_234,influencer_campaign,Campaign_4,INF_031,USER_5576,Pre-workout,HKVitals,2025-05-12,1,149.56
+TRK_235,influencer_campaign,Campaign_8,INF_014,USER_6847,Creatine,MuscleBlaze,2025-06-10,1,168.06
+TRK_236,influencer_campaign,Campaign_7,INF_023,USER_6047,Pre-workout,HKVitals,2025-02-28,1,68.85
+TRK_237,influencer_campaign,Campaign_9,INF_018,USER_7759,Whey Protein,Gritzo,2025-05-29,1,149.91
+TRK_238,influencer_campaign,Campaign_6,INF_049,USER_6353,Kids Nutrition,HKVitals,2025-05-24,1,28.43
+TRK_239,influencer_campaign,Campaign_9,INF_008,USER_5952,Fish Oil,Gritzo,2025-07-04,1,64.43
+TRK_240,influencer_campaign,Campaign_2,INF_001,USER_4524,Creatine,HKVitals,2025-06-07,1,68.67
+TRK_241,influencer_campaign,Campaign_1,INF_015,USER_8390,Creatine,Gritzo,2025-04-12,1,98.09
+TRK_242,influencer_campaign,Campaign_1,INF_037,USER_7095,Multivitamin,Gritzo,2025-07-15,1,143.66
+TRK_243,influencer_campaign,Campaign_5,INF_023,USER_9121,Creatine,Gritzo,2025-07-19,1,177.59
+TRK_244,influencer_campaign,Campaign_5,INF_017,USER_7123,BCAA,MuscleBlaze,2025-03-17,1,73.65
+TRK_245,influencer_campaign,Campaign_7,INF_042,USER_2588,Whey Protein,Gritzo,2025-07-15,1,84.81
+TRK_246,influencer_campaign,Campaign_3,INF_047,USER_5356,Whey Protein,Gritzo,2025-07-16,1,134.2
+TRK_247,influencer_campaign,Campaign_4,INF_041,USER_4425,Pre-workout,Gritzo,2025-03-05,1,94.97
+TRK_248,influencer_campaign,Campaign_2,INF_022,USER_3977,Kids Nutrition,HKVitals,2025-05-31,1,142.01
+TRK_249,influencer_campaign,Campaign_5,INF_003,USER_0540,Pre-workout,HKVitals,2025-03-20,1,195.43
+TRK_250,influencer_campaign,Campaign_3,INF_001,USER_1549,Whey Protein,MuscleBlaze,2025-05-31,1,35.36
+TRK_251,influencer_campaign,Campaign_5,INF_010,USER_3749,Pre-workout,HKVitals,2025-04-14,1,68.17
+TRK_252,influencer_campaign,Campaign_3,INF_022,USER_8089,BCAA,Gritzo,2025-05-12,1,42.39
+TRK_253,influencer_campaign,Campaign_4,INF_038,USER_7704,Fish Oil,Gritzo,2025-03-09,1,183.09
+TRK_254,influencer_campaign,Campaign_6,INF_025,USER_3924,Kids Nutrition,Gritzo,2025-06-22,1,113.43
+TRK_255,influencer_campaign,Campaign_6,INF_017,USER_5819,Kids Nutrition,HKVitals,2025-06-04,1,43.67
+TRK_256,influencer_campaign,Campaign_5,INF_041,USER_8225,Kids Nutrition,HKVitals,2025-07-04,1,98.39
+TRK_257,influencer_campaign,Campaign_5,INF_007,USER_4580,Fish Oil,Gritzo,2025-04-18,1,86.91
+TRK_258,influencer_campaign,Campaign_8,INF_036,USER_8836,BCAA,MuscleBlaze,2025-06-11,1,141.6
+TRK_259,influencer_campaign,Campaign_7,INF_041,USER_9434,Creatine,HKVitals,2025-05-29,1,128.59
+TRK_260,influencer_campaign,Campaign_8,INF_040,USER_9172,Multivitamin,Gritzo,2025-07-07,1,63.05
+TRK_261,influencer_campaign,Campaign_9,INF_015,USER_9745,BCAA,HKVitals,2025-03-24,1,33.61
+TRK_262,influencer_campaign,Campaign_9,INF_044,USER_7469,BCAA,Gritzo,2025-06-06,1,181.29
+TRK_263,influencer_campaign,Campaign_1,INF_013,USER_1073,Kids Nutrition,HKVitals,2025-06-04,1,183.16
+TRK_264,influencer_campaign,Campaign_9,INF_024,USER_4782,Multivitamin,HKVitals,2025-04-18,1,180.23
+TRK_265,influencer_campaign,Campaign_4,INF_049,USER_2296,Pre-workout,MuscleBlaze,2025-06-14,1,21.41
+TRK_266,influencer_campaign,Campaign_5,INF_050,USER_7558,Pre-workout,HKVitals,2025-03-07,1,83.77
+TRK_267,influencer_campaign,Campaign_3,INF_022,USER_5086,Pre-workout,MuscleBlaze,2025-05-09,1,118.38
+TRK_268,influencer_campaign,Campaign_2,INF_008,USER_9739,Kids Nutrition,HKVitals,2025-06-08,1,171.86
+TRK_269,influencer_campaign,Campaign_8,INF_041,USER_7867,Multivitamin,HKVitals,2025-03-08,1,134.58
+TRK_270,influencer_campaign,Campaign_2,INF_012,USER_7187,Kids Nutrition,Gritzo,2025-07-09,1,102.61
+TRK_271,influencer_campaign,Campaign_6,INF_038,USER_9476,Creatine,Gritzo,2025-06-18,1,22.35
+TRK_272,influencer_campaign,Campaign_1,INF_029,USER_8437,Multivitamin,HKVitals,2025-04-20,1,83.91
+TRK_273,influencer_campaign,Campaign_4,INF_008,USER_6977,BCAA,Gritzo,2025-07-11,1,173.76
+TRK_274,influencer_campaign,Campaign_6,INF_017,USER_6237,Pre-workout,MuscleBlaze,2025-05-15,1,121.72
+TRK_275,influencer_campaign,Campaign_5,INF_037,USER_2218,Creatine,HKVitals,2025-05-05,1,161.2
+TRK_276,influencer_campaign,Campaign_9,INF_008,USER_4445,BCAA,MuscleBlaze,2025-05-22,1,65.69
+TRK_277,influencer_campaign,Campaign_6,INF_045,USER_7928,Kids Nutrition,Gritzo,2025-03-02,1,182.25
+TRK_278,influencer_campaign,Campaign_7,INF_034,USER_3825,BCAA,MuscleBlaze,2025-06-29,1,28.08
+TRK_279,influencer_campaign,Campaign_1,INF_030,USER_4370,Fish Oil,MuscleBlaze,2025-05-30,1,191.17
+TRK_280,influencer_campaign,Campaign_1,INF_020,USER_2162,Whey Protein,HKVitals,2025-05-22,1,94.81
+TRK_281,influencer_campaign,Campaign_7,INF_026,USER_3787,Whey Protein,MuscleBlaze,2025-06-09,1,195.39
+TRK_282,influencer_campaign,Campaign_6,INF_005,USER_1773,Whey Protein,MuscleBlaze,2025-06-22,1,192.14
+TRK_283,influencer_campaign,Campaign_5,INF_004,USER_6243,Creatine,HKVitals,2025-07-09,1,121.4
+TRK_284,influencer_campaign,Campaign_7,INF_019,USER_6298,Fish Oil,MuscleBlaze,2025-06-09,1,83.55
+TRK_285,influencer_campaign,Campaign_4,INF_014,USER_1423,Multivitamin,MuscleBlaze,2025-07-02,1,168.17
+TRK_286,influencer_campaign,Campaign_3,INF_029,USER_0615,Pre-workout,HKVitals,2025-07-06,1,53.5
+TRK_287,influencer_campaign,Campaign_3,INF_027,USER_2469,Whey Protein,Gritzo,2025-04-29,1,73.14
+TRK_288,influencer_campaign,Campaign_4,INF_047,USER_3608,Multivitamin,Gritzo,2025-03-16,1,168.81
+TRK_289,influencer_campaign,Campaign_5,INF_034,USER_4959,Pre-workout,MuscleBlaze,2025-06-16,1,96.54
+TRK_290,influencer_campaign,Campaign_6,INF_041,USER_5446,Fish Oil,MuscleBlaze,2025-04-18,1,126.28
+TRK_291,influencer_campaign,Campaign_5,INF_010,USER_4308,BCAA,Gritzo,2025-07-05,1,56.64
+TRK_292,influencer_campaign,Campaign_6,INF_022,USER_4083,Kids Nutrition,Gritzo,2025-04-08,1,54.4
+TRK_293,influencer_campaign,Campaign_2,INF_041,USER_2750,Fish Oil,MuscleBlaze,2025-07-11,1,96.07
+TRK_294,influencer_campaign,Campaign_6,INF_048,USER_3812,Kids Nutrition,HKVitals,2025-06-26,1,80.65
+TRK_295,influencer_campaign,Campaign_1,INF_021,USER_8464,BCAA,Gritzo,2025-04-15,1,126.31
+TRK_296,influencer_campaign,Campaign_9,INF_031,USER_9169,BCAA,HKVitals,2025-03-24,1,50.12
+TRK_297,influencer_campaign,Campaign_4,INF_022,USER_0153,BCAA,MuscleBlaze,2025-03-09,1,128.28
+TRK_298,influencer_campaign,Campaign_9,INF_037,USER_2611,Creatine,MuscleBlaze,2025-06-02,1,160.53
+TRK_299,influencer_campaign,Campaign_8,INF_041,USER_3855,Kids Nutrition,Gritzo,2025-06-27,1,168.95
+TRK_300,influencer_campaign,Campaign_7,INF_006,USER_0509,Pre-workout,MuscleBlaze,2025-02-21,1,41.97
+TRK_301,influencer_campaign,Campaign_6,INF_017,USER_1364,Creatine,MuscleBlaze,2025-05-04,1,82.16
+TRK_302,influencer_campaign,Campaign_7,INF_003,USER_4288,Whey Protein,MuscleBlaze,2025-05-12,1,146.21
+TRK_303,influencer_campaign,Campaign_4,INF_003,USER_6034,Whey Protein,Gritzo,2025-03-07,1,111.2
+TRK_304,influencer_campaign,Campaign_1,INF_043,USER_1294,Multivitamin,MuscleBlaze,2025-06-16,1,42.39
+TRK_305,influencer_campaign,Campaign_6,INF_004,USER_7033,Whey Protein,MuscleBlaze,2025-04-20,1,110.2
+TRK_306,influencer_campaign,Campaign_5,INF_040,USER_6427,Pre-workout,MuscleBlaze,2025-05-14,1,97.33
+TRK_307,influencer_campaign,Campaign_3,INF_048,USER_2764,BCAA,Gritzo,2025-04-25,1,148.59
+TRK_308,influencer_campaign,Campaign_4,INF_010,USER_9730,Pre-workout,Gritzo,2025-05-20,1,48.31
+TRK_309,influencer_campaign,Campaign_8,INF_037,USER_8567,BCAA,HKVitals,2025-05-03,1,65.08
+TRK_310,influencer_campaign,Campaign_4,INF_016,USER_4560,Creatine,MuscleBlaze,2025-05-14,1,133.04
+TRK_311,influencer_campaign,Campaign_5,INF_049,USER_0140,Whey Protein,HKVitals,2025-03-04,1,71.77
+TRK_312,influencer_campaign,Campaign_5,INF_033,USER_6262,BCAA,MuscleBlaze,2025-02-25,1,151.89
+TRK_313,influencer_campaign,Campaign_6,INF_050,USER_6341,BCAA,HKVitals,2025-06-12,1,80.02
+TRK_314,influencer_campaign,Campaign_1,INF_030,USER_3766,Kids Nutrition,Gritzo,2025-04-08,1,88.66
+TRK_315,influencer_campaign,Campaign_6,INF_023,USER_7645,Creatine,MuscleBlaze,2025-03-06,1,160.58
+TRK_316,influencer_campaign,Campaign_9,INF_024,USER_9608,Multivitamin,HKVitals,2025-05-13,1,189.43
+TRK_317,influencer_campaign,Campaign_5,INF_029,USER_9534,Whey Protein,MuscleBlaze,2025-03-09,1,38.56
+TRK_318,influencer_campaign,Campaign_2,INF_018,USER_8400,Multivitamin,HKVitals,2025-05-02,1,67.57
+TRK_319,influencer_campaign,Campaign_7,INF_038,USER_1519,Pre-workout,Gritzo,2025-03-14,1,45.91
+TRK_320,influencer_campaign,Campaign_4,INF_041,USER_3555,Kids Nutrition,HKVitals,2025-07-18,1,127.83
+TRK_321,influencer_campaign,Campaign_3,INF_030,USER_1743,BCAA,HKVitals,2025-04-14,1,22.72
+TRK_322,influencer_campaign,Campaign_9,INF_009,USER_4196,BCAA,HKVitals,2025-05-27,1,129.8
+TRK_323,influencer_campaign,Campaign_9,INF_029,USER_6410,Fish Oil,Gritzo,2025-04-26,1,41.07
+TRK_324,influencer_campaign,Campaign_8,INF_022,USER_1814,Creatine,HKVitals,2025-04-09,1,21.2
+TRK_325,influencer_campaign,Campaign_1,INF_030,USER_4397,Creatine,Gritzo,2025-03-17,1,29.09
+TRK_326,influencer_campaign,Campaign_1,INF_049,USER_7818,Creatine,MuscleBlaze,2025-07-07,1,101.05
+TRK_327,influencer_campaign,Campaign_6,INF_045,USER_8368,Pre-workout,MuscleBlaze,2025-04-07,1,53.94
+TRK_328,influencer_campaign,Campaign_2,INF_010,USER_3491,Creatine,Gritzo,2025-06-14,1,153.71
+TRK_329,influencer_campaign,Campaign_4,INF_021,USER_3677,BCAA,MuscleBlaze,2025-06-27,1,165.29
+TRK_330,influencer_campaign,Campaign_1,INF_027,USER_4139,Whey Protein,MuscleBlaze,2025-07-17,1,126.1
+TRK_331,influencer_campaign,Campaign_7,INF_042,USER_1135,Creatine,Gritzo,2025-03-31,1,55.87
+TRK_332,influencer_campaign,Campaign_2,INF_033,USER_8253,Multivitamin,Gritzo,2025-06-10,1,68.75
+TRK_333,influencer_campaign,Campaign_7,INF_033,USER_9866,Multivitamin,HKVitals,2025-05-06,1,127.06
+TRK_334,influencer_campaign,Campaign_3,INF_019,USER_1994,Pre-workout,MuscleBlaze,2025-04-24,1,117.97
+TRK_335,influencer_campaign,Campaign_1,INF_027,USER_7241,Fish Oil,HKVitals,2025-02-28,1,32.32
+TRK_336,influencer_campaign,Campaign_1,INF_043,USER_9910,Fish Oil,MuscleBlaze,2025-05-20,1,80.05
+TRK_337,influencer_campaign,Campaign_2,INF_018,USER_8637,Multivitamin,Gritzo,2025-04-17,1,161.73
+TRK_338,influencer_campaign,Campaign_5,INF_038,USER_9551,Creatine,HKVitals,2025-06-14,1,136.88
+TRK_339,influencer_campaign,Campaign_9,INF_034,USER_6916,Pre-workout,Gritzo,2025-04-24,1,72.63
+TRK_340,influencer_campaign,Campaign_1,INF_043,USER_9015,BCAA,HKVitals,2025-04-15,1,25.1
+TRK_341,influencer_campaign,Campaign_6,INF_038,USER_5104,Fish Oil,MuscleBlaze,2025-06-21,1,66.84
+TRK_342,influencer_campaign,Campaign_7,INF_049,USER_2669,Kids Nutrition,Gritzo,2025-05-23,1,139.56
+TRK_343,influencer_campaign,Campaign_8,INF_035,USER_4842,Kids Nutrition,MuscleBlaze,2025-04-30,1,21.43
+TRK_344,influencer_campaign,Campaign_4,INF_021,USER_3928,Whey Protein,MuscleBlaze,2025-04-22,1,83.68
+TRK_345,influencer_campaign,Campaign_5,INF_046,USER_9764,Pre-workout,HKVitals,2025-03-24,1,165.68
+TRK_346,influencer_campaign,Campaign_1,INF_049,USER_7025,Fish Oil,MuscleBlaze,2025-06-06,1,68.87
+TRK_347,influencer_campaign,Campaign_3,INF_009,USER_7207,Pre-workout,MuscleBlaze,2025-02-26,1,119.61
+TRK_348,influencer_campaign,Campaign_7,INF_005,USER_8144,BCAA,HKVitals,2025-05-18,1,170.82
+TRK_349,influencer_campaign,Campaign_7,INF_022,USER_2701,Pre-workout,Gritzo,2025-03-21,1,102.65
+TRK_350,influencer_campaign,Campaign_8,INF_048,USER_0597,Multivitamin,MuscleBlaze,2025-04-06,1,49.75
+TRK_351,influencer_campaign,Campaign_6,INF_006,USER_4385,Pre-workout,MuscleBlaze,2025-06-08,1,112.69
+TRK_352,influencer_campaign,Campaign_3,INF_043,USER_9929,Multivitamin,Gritzo,2025-06-22,1,83.77
+TRK_353,influencer_campaign,Campaign_3,INF_014,USER_3454,Creatine,Gritzo,2025-04-08,1,90.39
+TRK_354,influencer_campaign,Campaign_3,INF_009,USER_2243,Multivitamin,Gritzo,2025-03-25,1,97.21
+TRK_355,influencer_campaign,Campaign_6,INF_042,USER_1921,Multivitamin,MuscleBlaze,2025-05-29,1,94.15
+TRK_356,influencer_campaign,Campaign_7,INF_048,USER_2688,Multivitamin,MuscleBlaze,2025-04-09,1,129.01
+TRK_357,influencer_campaign,Campaign_1,INF_007,USER_5127,Multivitamin,MuscleBlaze,2025-03-05,1,90.53
+TRK_358,influencer_campaign,Campaign_1,INF_039,USER_6315,Whey Protein,Gritzo,2025-04-14,1,159.77
+TRK_359,influencer_campaign,Campaign_9,INF_003,USER_3894,Creatine,MuscleBlaze,2025-03-21,1,133.12
+TRK_360,influencer_campaign,Campaign_9,INF_001,USER_9580,BCAA,HKVitals,2025-05-24,1,167.85
+TRK_361,influencer_campaign,Campaign_9,INF_041,USER_4995,BCAA,MuscleBlaze,2025-05-14,1,167.71
+TRK_362,influencer_campaign,Campaign_2,INF_046,USER_8576,Multivitamin,HKVitals,2025-03-22,1,136.6
+TRK_363,influencer_campaign,Campaign_4,INF_006,USER_4781,Multivitamin,HKVitals,2025-06-04,1,194.25
+TRK_364,influencer_campaign,Campaign_4,INF_013,USER_6080,Fish Oil,Gritzo,2025-04-06,1,198.06
+TRK_365,influencer_campaign,Campaign_6,INF_042,USER_8398,BCAA,Gritzo,2025-04-28,1,59.62
+TRK_366,influencer_campaign,Campaign_2,INF_004,USER_9278,Whey Protein,MuscleBlaze,2025-04-21,1,150.09
+TRK_367,influencer_campaign,Campaign_8,INF_028,USER_5168,Whey Protein,MuscleBlaze,2025-06-24,1,37.17
+TRK_368,influencer_campaign,Campaign_7,INF_037,USER_9696,Multivitamin,MuscleBlaze,2025-06-12,1,155.31
+TRK_369,influencer_campaign,Campaign_7,INF_035,USER_3164,Whey Protein,Gritzo,2025-04-05,1,153.61
+TRK_370,influencer_campaign,Campaign_1,INF_028,USER_0991,BCAA,MuscleBlaze,2025-07-04,1,155.0
+TRK_371,influencer_campaign,Campaign_5,INF_026,USER_9686,Pre-workout,HKVitals,2025-03-28,1,173.47
+TRK_372,influencer_campaign,Campaign_8,INF_012,USER_0616,BCAA,MuscleBlaze,2025-03-05,1,148.3
+TRK_373,influencer_campaign,Campaign_1,INF_040,USER_3802,Multivitamin,HKVitals,2025-06-30,1,96.47
+TRK_374,influencer_campaign,Campaign_2,INF_012,USER_7486,Whey Protein,HKVitals,2025-06-15,1,167.93
+TRK_375,influencer_campaign,Campaign_5,INF_038,USER_0923,Creatine,Gritzo,2025-04-22,1,78.41
+TRK_376,influencer_campaign,Campaign_4,INF_022,USER_7648,Kids Nutrition,Gritzo,2025-05-05,1,139.15
+TRK_377,influencer_campaign,Campaign_4,INF_006,USER_0204,Whey Protein,MuscleBlaze,2025-05-15,1,159.26
+TRK_378,influencer_campaign,Campaign_5,INF_037,USER_8800,BCAA,Gritzo,2025-04-24,1,67.52
+TRK_379,influencer_campaign,Campaign_2,INF_005,USER_3760,Pre-workout,MuscleBlaze,2025-04-21,1,27.02
+TRK_380,influencer_campaign,Campaign_2,INF_046,USER_2379,Whey Protein,HKVitals,2025-06-04,1,140.02
+TRK_381,influencer_campaign,Campaign_3,INF_038,USER_4461,BCAA,Gritzo,2025-03-19,1,199.8
+TRK_382,influencer_campaign,Campaign_1,INF_031,USER_2851,Creatine,Gritzo,2025-07-13,1,74.73
+TRK_383,influencer_campaign,Campaign_6,INF_021,USER_0166,Kids Nutrition,HKVitals,2025-04-09,1,76.2
+TRK_384,influencer_campaign,Campaign_4,INF_024,USER_6048,Kids Nutrition,Gritzo,2025-06-14,1,147.11
+TRK_385,influencer_campaign,Campaign_5,INF_043,USER_0068,Fish Oil,MuscleBlaze,2025-05-30,1,188.91
+TRK_386,influencer_campaign,Campaign_9,INF_019,USER_5396,BCAA,Gritzo,2025-05-05,1,44.92
+TRK_387,influencer_campaign,Campaign_7,INF_024,USER_2588,Fish Oil,Gritzo,2025-07-09,1,187.25
+TRK_388,influencer_campaign,Campaign_2,INF_005,USER_5233,Multivitamin,HKVitals,2025-04-12,1,99.75
+TRK_389,influencer_campaign,Campaign_2,INF_025,USER_3227,Kids Nutrition,HKVitals,2025-03-06,1,29.6
+TRK_390,influencer_campaign,Campaign_5,INF_018,USER_9132,Fish Oil,Gritzo,2025-06-20,1,189.5
+TRK_391,influencer_campaign,Campaign_9,INF_041,USER_2506,Pre-workout,Gritzo,2025-04-20,1,145.48
+TRK_392,influencer_campaign,Campaign_1,INF_001,USER_1679,Creatine,HKVitals,2025-04-25,1,165.85
+TRK_393,influencer_campaign,Campaign_2,INF_022,USER_4530,Whey Protein,Gritzo,2025-05-24,1,190.77
+TRK_394,influencer_campaign,Campaign_4,INF_043,USER_7390,Pre-workout,Gritzo,2025-03-04,1,101.88
+TRK_395,influencer_campaign,Campaign_2,INF_028,USER_8997,Whey Protein,HKVitals,2025-05-21,1,92.34
+TRK_396,influencer_campaign,Campaign_8,INF_002,USER_6056,BCAA,HKVitals,2025-03-28,1,34.14
+TRK_397,influencer_campaign,Campaign_1,INF_020,USER_4736,Creatine,Gritzo,2025-02-28,1,31.97
+TRK_398,influencer_campaign,Campaign_8,INF_016,USER_9136,BCAA,MuscleBlaze,2025-04-23,1,127.42
+TRK_399,influencer_campaign,Campaign_9,INF_023,USER_2260,Fish Oil,HKVitals,2025-05-19,1,179.22
+TRK_400,influencer_campaign,Campaign_5,INF_017,USER_3806,Pre-workout,Gritzo,2025-06-19,1,131.42
+TRK_401,influencer_campaign,Campaign_3,INF_012,USER_4590,BCAA,HKVitals,2025-03-09,1,173.46
+TRK_402,influencer_campaign,Campaign_2,INF_050,USER_8955,Creatine,HKVitals,2025-05-02,1,57.94
+TRK_403,influencer_campaign,Campaign_5,INF_038,USER_3156,BCAA,MuscleBlaze,2025-07-08,1,33.47
+TRK_404,influencer_campaign,Campaign_8,INF_040,USER_1943,BCAA,HKVitals,2025-05-03,1,99.15
+TRK_405,influencer_campaign,Campaign_7,INF_008,USER_7588,Fish Oil,MuscleBlaze,2025-05-24,1,61.85
+TRK_406,influencer_campaign,Campaign_6,INF_032,USER_5458,Pre-workout,Gritzo,2025-03-28,1,57.89
+TRK_407,influencer_campaign,Campaign_6,INF_024,USER_7543,BCAA,HKVitals,2025-06-27,1,68.85
+TRK_408,influencer_campaign,Campaign_8,INF_032,USER_7523,Creatine,HKVitals,2025-03-02,1,110.99
+TRK_409,influencer_campaign,Campaign_9,INF_023,USER_6325,Multivitamin,MuscleBlaze,2025-07-15,1,99.51
+TRK_410,influencer_campaign,Campaign_2,INF_022,USER_5068,Whey Protein,Gritzo,2025-07-11,1,82.47
+TRK_411,influencer_campaign,Campaign_7,INF_042,USER_4775,Fish Oil,MuscleBlaze,2025-03-07,1,28.09
+TRK_412,influencer_campaign,Campaign_5,INF_032,USER_5202,Fish Oil,MuscleBlaze,2025-07-07,1,189.28
+TRK_413,influencer_campaign,Campaign_7,INF_012,USER_0227,Multivitamin,Gritzo,2025-03-30,1,170.88
+TRK_414,influencer_campaign,Campaign_8,INF_039,USER_1933,Fish Oil,MuscleBlaze,2025-05-20,1,112.49
+TRK_415,influencer_campaign,Campaign_9,INF_049,USER_1882,Pre-workout,Gritzo,2025-07-04,1,122.19
+TRK_416,influencer_campaign,Campaign_6,INF_004,USER_3263,Pre-workout,MuscleBlaze,2025-03-31,1,187.82
+TRK_417,influencer_campaign,Campaign_2,INF_030,USER_0720,Pre-workout,MuscleBlaze,2025-07-01,1,52.91
+TRK_418,influencer_campaign,Campaign_6,INF_038,USER_9422,BCAA,HKVitals,2025-05-03,1,86.81
+TRK_419,influencer_campaign,Campaign_5,INF_003,USER_7870,Creatine,MuscleBlaze,2025-05-07,1,120.22
+TRK_420,influencer_campaign,Campaign_4,INF_041,USER_3559,Kids Nutrition,HKVitals,2025-03-23,1,59.28
+TRK_421,influencer_campaign,Campaign_2,INF_004,USER_8113,Creatine,MuscleBlaze,2025-03-05,1,132.23
+TRK_422,influencer_campaign,Campaign_1,INF_017,USER_3130,Multivitamin,Gritzo,2025-06-29,1,83.22
+TRK_423,influencer_campaign,Campaign_8,INF_045,USER_0315,Multivitamin,Gritzo,2025-03-15,1,72.46
+TRK_424,influencer_campaign,Campaign_6,INF_013,USER_0722,Kids Nutrition,MuscleBlaze,2025-03-08,1,130.75
+TRK_425,influencer_campaign,Campaign_2,INF_030,USER_1757,Pre-workout,HKVitals,2025-06-03,1,188.33
+TRK_426,influencer_campaign,Campaign_5,INF_018,USER_1648,Kids Nutrition,MuscleBlaze,2025-03-05,1,141.39
+TRK_427,influencer_campaign,Campaign_4,INF_040,USER_2762,Creatine,Gritzo,2025-06-16,1,140.61
+TRK_428,influencer_campaign,Campaign_1,INF_023,USER_1849,Creatine,MuscleBlaze,2025-06-28,1,26.28
+TRK_429,influencer_campaign,Campaign_2,INF_047,USER_3792,Whey Protein,Gritzo,2025-02-21,1,163.28
+TRK_430,influencer_campaign,Campaign_1,INF_012,USER_3304,Multivitamin,HKVitals,2025-07-06,1,70.59
+TRK_431,influencer_campaign,Campaign_1,INF_011,USER_1505,Multivitamin,MuscleBlaze,2025-06-03,1,42.59
+TRK_432,influencer_campaign,Campaign_8,INF_021,USER_4486,Pre-workout,HKVitals,2025-05-16,1,170.31
+TRK_433,influencer_campaign,Campaign_1,INF_038,USER_4323,BCAA,Gritzo,2025-04-15,1,35.76
+TRK_434,influencer_campaign,Campaign_2,INF_024,USER_9279,BCAA,Gritzo,2025-04-10,1,79.8
+TRK_435,influencer_campaign,Campaign_8,INF_028,USER_1052,Multivitamin,HKVitals,2025-03-09,1,137.61
+TRK_436,influencer_campaign,Campaign_6,INF_037,USER_6321,BCAA,HKVitals,2025-06-15,1,111.14
+TRK_437,influencer_campaign,Campaign_1,INF_013,USER_3177,Creatine,Gritzo,2025-04-13,1,142.06
+TRK_438,influencer_campaign,Campaign_3,INF_046,USER_5870,BCAA,MuscleBlaze,2025-05-14,1,76.14
+TRK_439,influencer_campaign,Campaign_8,INF_042,USER_4568,Multivitamin,HKVitals,2025-04-09,1,170.22
+TRK_440,influencer_campaign,Campaign_8,INF_044,USER_7756,Kids Nutrition,Gritzo,2025-07-07,1,63.2
+TRK_441,influencer_campaign,Campaign_3,INF_014,USER_1274,Pre-workout,HKVitals,2025-03-17,1,184.38
+TRK_442,influencer_campaign,Campaign_8,INF_042,USER_8003,Fish Oil,Gritzo,2025-05-04,1,155.21
+TRK_443,influencer_campaign,Campaign_9,INF_027,USER_6306,Kids Nutrition,Gritzo,2025-06-13,1,21.24
+TRK_444,influencer_campaign,Campaign_4,INF_050,USER_4183,Kids Nutrition,MuscleBlaze,2025-05-15,1,156.34
+TRK_445,influencer_campaign,Campaign_5,INF_025,USER_5553,Creatine,HKVitals,2025-04-27,1,53.23
+TRK_446,influencer_campaign,Campaign_4,INF_021,USER_0975,Pre-workout,MuscleBlaze,2025-06-16,1,71.83
+TRK_447,influencer_campaign,Campaign_6,INF_021,USER_2673,BCAA,Gritzo,2025-06-21,1,90.22
+TRK_448,influencer_campaign,Campaign_3,INF_023,USER_2774,Kids Nutrition,Gritzo,2025-05-22,1,187.68
+TRK_449,influencer_campaign,Campaign_1,INF_040,USER_3784,Kids Nutrition,Gritzo,2025-07-08,1,78.82
+TRK_450,influencer_campaign,Campaign_7,INF_005,USER_4539,Fish Oil,HKVitals,2025-06-22,1,123.83
+TRK_451,influencer_campaign,Campaign_2,INF_029,USER_7617,Creatine,Gritzo,2025-05-04,1,181.23
+TRK_452,influencer_campaign,Campaign_7,INF_030,USER_1626,Fish Oil,Gritzo,2025-03-03,1,115.81
+TRK_453,influencer_campaign,Campaign_9,INF_008,USER_8807,Kids Nutrition,HKVitals,2025-06-25,1,167.37
+TRK_454,influencer_campaign,Campaign_1,INF_021,USER_5559,Pre-workout,MuscleBlaze,2025-03-23,1,29.5
+TRK_455,influencer_campaign,Campaign_6,INF_047,USER_1450,Fish Oil,Gritzo,2025-06-29,1,65.51
+TRK_456,influencer_campaign,Campaign_8,INF_017,USER_6846,Kids Nutrition,MuscleBlaze,2025-03-14,1,105.92
+TRK_457,influencer_campaign,Campaign_6,INF_017,USER_4592,Pre-workout,MuscleBlaze,2025-05-21,1,48.09
+TRK_458,influencer_campaign,Campaign_8,INF_006,USER_3581,BCAA,MuscleBlaze,2025-06-10,1,52.88
+TRK_459,influencer_campaign,Campaign_6,INF_049,USER_7985,Kids Nutrition,MuscleBlaze,2025-04-21,1,41.36
+TRK_460,influencer_campaign,Campaign_4,INF_034,USER_4486,Pre-workout,Gritzo,2025-03-18,1,188.68
+TRK_461,influencer_campaign,Campaign_9,INF_050,USER_4622,Pre-workout,MuscleBlaze,2025-07-16,1,79.78
+TRK_462,influencer_campaign,Campaign_3,INF_007,USER_4671,BCAA,Gritzo,2025-06-28,1,63.05
+TRK_463,influencer_campaign,Campaign_4,INF_044,USER_1636,BCAA,HKVitals,2025-05-12,1,136.68
+TRK_464,influencer_campaign,Campaign_1,INF_048,USER_1074,Whey Protein,Gritzo,2025-04-05,1,166.64
+TRK_465,influencer_campaign,Campaign_5,INF_032,USER_7024,Kids Nutrition,Gritzo,2025-07-11,1,115.7
+TRK_466,influencer_campaign,Campaign_4,INF_004,USER_4525,Multivitamin,MuscleBlaze,2025-04-01,1,48.23
+TRK_467,influencer_campaign,Campaign_8,INF_002,USER_4888,Kids Nutrition,Gritzo,2025-03-23,1,37.23
+TRK_468,influencer_campaign,Campaign_7,INF_031,USER_3576,Creatine,Gritzo,2025-04-06,1,170.57
+TRK_469,influencer_campaign,Campaign_3,INF_039,USER_2846,Multivitamin,HKVitals,2025-06-25,1,133.37
+TRK_470,influencer_campaign,Campaign_7,INF_018,USER_6716,Multivitamin,Gritzo,2025-06-14,1,141.94
+TRK_471,influencer_campaign,Campaign_4,INF_045,USER_3165,Kids Nutrition,HKVitals,2025-05-25,1,117.25
+TRK_472,influencer_campaign,Campaign_8,INF_032,USER_6010,Whey Protein,MuscleBlaze,2025-06-06,1,171.96
+TRK_473,influencer_campaign,Campaign_3,INF_010,USER_3178,BCAA,Gritzo,2025-02-26,1,78.54
+TRK_474,influencer_campaign,Campaign_4,INF_017,USER_0809,BCAA,MuscleBlaze,2025-05-27,1,193.83
+TRK_475,influencer_campaign,Campaign_4,INF_032,USER_2198,Kids Nutrition,Gritzo,2025-03-27,1,190.42
+TRK_476,influencer_campaign,Campaign_7,INF_013,USER_0225,Multivitamin,MuscleBlaze,2025-02-23,1,199.57
+TRK_477,influencer_campaign,Campaign_3,INF_041,USER_0125,Kids Nutrition,MuscleBlaze,2025-05-04,1,52.61
+TRK_478,influencer_campaign,Campaign_9,INF_047,USER_2972,Multivitamin,MuscleBlaze,2025-06-16,1,118.36
+TRK_479,influencer_campaign,Campaign_9,INF_048,USER_6783,Whey Protein,MuscleBlaze,2025-03-17,1,163.5
+TRK_480,influencer_campaign,Campaign_2,INF_014,USER_9994,BCAA,Gritzo,2025-05-30,1,128.44
+TRK_481,influencer_campaign,Campaign_7,INF_011,USER_3793,Pre-workout,HKVitals,2025-05-16,1,170.29
+TRK_482,influencer_campaign,Campaign_6,INF_012,USER_5451,Whey Protein,Gritzo,2025-06-21,1,95.53
+TRK_483,influencer_campaign,Campaign_9,INF_018,USER_4587,Kids Nutrition,Gritzo,2025-05-21,1,190.42
+TRK_484,influencer_campaign,Campaign_4,INF_048,USER_5878,Multivitamin,HKVitals,2025-04-03,1,125.9
+TRK_485,influencer_campaign,Campaign_8,INF_027,USER_1903,Kids Nutrition,HKVitals,2025-03-19,1,121.89
+TRK_486,influencer_campaign,Campaign_1,INF_040,USER_0465,Creatine,MuscleBlaze,2025-06-24,1,96.7
+TRK_487,influencer_campaign,Campaign_4,INF_008,USER_2844,Pre-workout,MuscleBlaze,2025-04-30,1,36.18
+TRK_488,influencer_campaign,Campaign_7,INF_047,USER_6544,Pre-workout,HKVitals,2025-05-07,1,71.72
+TRK_489,influencer_campaign,Campaign_3,INF_007,USER_3983,Creatine,Gritzo,2025-06-24,1,156.64
+TRK_490,influencer_campaign,Campaign_5,INF_046,USER_4160,Fish Oil,Gritzo,2025-03-11,1,58.93
+TRK_491,influencer_campaign,Campaign_4,INF_029,USER_3970,Pre-workout,HKVitals,2025-07-18,1,152.1
+TRK_492,influencer_campaign,Campaign_3,INF_005,USER_4567,Multivitamin,MuscleBlaze,2025-05-31,1,125.27
+TRK_493,influencer_campaign,Campaign_4,INF_043,USER_2582,Creatine,Gritzo,2025-04-23,1,195.69
+TRK_494,influencer_campaign,Campaign_3,INF_036,USER_6383,Kids Nutrition,MuscleBlaze,2025-05-04,1,61.4
+TRK_495,influencer_campaign,Campaign_2,INF_020,USER_1874,Fish Oil,Gritzo,2025-03-01,1,118.2
+TRK_496,influencer_campaign,Campaign_2,INF_011,USER_5930,Whey Protein,HKVitals,2025-03-14,1,140.83
+TRK_497,influencer_campaign,Campaign_3,INF_031,USER_5309,Kids Nutrition,Gritzo,2025-07-05,1,41.11
+TRK_498,influencer_campaign,Campaign_4,INF_031,USER_1162,Multivitamin,HKVitals,2025-03-24,1,131.49
+TRK_499,influencer_campaign,Campaign_7,INF_024,USER_0245,Kids Nutrition,Gritzo,2025-03-09,1,110.13
+TRK_500,influencer_campaign,Campaign_5,INF_024,USER_3399,Multivitamin,Gritzo,2025-06-29,1,43.25

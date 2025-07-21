@@ -1,0 +1,696 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HealthKart - Influencer Marketing Dashboard</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Top Header -->
+    <header class="top-header">
+        <div class="header-container">
+            <div class="brand-section">
+                <div class="logo-container">
+                    <div class="hk-logo">HK</div>
+                    <div class="brand-info">
+                        <h1 class="brand-name">HealthKart</h1>
+                        <p class="brand-tagline">Influencer Marketing Dashboard</p>
+                    </div>
+                </div>
+            </div>
+            <nav class="top-nav">
+                <ul class="nav-list">
+                    <li><a href="#" class="nav-item active">Dashboard</a></li>
+                    <li><a href="#" class="nav-item">Campaigns</a></li>
+                    <li><a href="#" class="nav-item">Influencers</a></li>
+                    <li><a href="#" class="nav-item">Analytics</a></li>
+                    <li><a href="#" class="nav-item">Reports</a></li>
+                    <li><a href="#" class="nav-item">Settings</a></li>
+                </ul>
+            </nav>
+            <div class="user-section">
+                <div class="notifications">
+                    <span class="notification-icon">🔔</span>
+                    <span class="notification-badge">3</span>
+                </div>
+                <div class="user-profile">
+                    <div class="user-avatar">A</div>
+                    <span class="user-name">Admin</span>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <div class="dashboard-layout">
+        <!-- Sidebar Navigation -->
+        <nav class="sidebar">
+            <ul class="nav-menu">
+                <li class="nav-item">
+                    <button class="nav-link active" data-section="executive">
+                        <span class="nav-icon">📊</span>
+                        Executive Summary
+                    </button>
+                </li>
+                <li class="nav-item">
+                    <button class="nav-link" data-section="platform">
+                        <span class="nav-icon">📱</span>
+                        Platform Analytics
+                    </button>
+                </li>
+                <li class="nav-item">
+                    <button class="nav-link" data-section="campaigns">
+                        <span class="nav-icon">📈</span>
+                        Campaign Performance
+                    </button>
+                </li>
+                <li class="nav-item">
+                    <button class="nav-link" data-section="influencers">
+                        <span class="nav-icon">👥</span>
+                        Influencer Insights
+                    </button>
+                </li>
+                <li class="nav-item">
+                    <button class="nav-link" data-section="brands">
+                        <span class="nav-icon">🏷️</span>
+                        Brand Analytics
+                    </button>
+                </li>
+                <li class="nav-item">
+                    <button class="nav-link" data-section="financial">
+                        <span class="nav-icon">💰</span>
+                        Financial Tracking
+                    </button>
+                </li>
+            </ul>
+        </nav>
+
+        <!-- Main Content Area -->
+        <main class="main-content">
+            <!-- Content Header with Filters -->
+            <div class="content-header">
+                <div class="header-title">
+                    <h2 id="page-title">Executive Summary</h2>
+                    <p id="page-subtitle">Overview of influencer marketing performance</p>
+                </div>
+                <div class="header-filters">
+                    <div class="filter-group">
+                        <label class="filter-label">Date Range</label>
+                        <select class="filter-select" id="dateFilter">
+                            <option value="all">All Time</option>
+                            <option value="30d">Last 30 Days</option>
+                            <option value="90d">Last 90 Days</option>
+                            <option value="6m" selected>Last 6 Months</option>
+                        </select>
+                    </div>
+                    <div class="filter-group">
+                        <label class="filter-label">Platform</label>
+                        <select class="filter-select" id="platformFilter">
+                            <option value="all">All Platforms</option>
+                            <option value="Instagram">Instagram</option>
+                            <option value="TikTok">TikTok</option>
+                            <option value="YouTube">YouTube</option>
+                            <option value="Twitter">Twitter</option>
+                        </select>
+                    </div>
+                    <div class="filter-group">
+                        <label class="filter-label">Brand</label>
+                        <select class="filter-select" id="brandFilter">
+                            <option value="all">All Brands</option>
+                            <option value="MuscleBlaze">MuscleBlaze</option>
+                            <option value="HKVitals">HKVitals</option>
+                            <option value="Gritzo">Gritzo</option>
+                        </select>
+                    </div>
+                    <button class="btn btn-export" onclick="exportDashboardData()">
+                        Export Report
+                    </button>
+                </div>
+            </div>
+
+            <!-- Executive Summary Section -->
+            <section class="dashboard-section active" id="executive-section">
+                <div class="kpi-grid">
+                    <div class="kpi-card revenue-card">
+                        <div class="kpi-header">
+                            <div class="kpi-icon">💰</div>
+                            <div class="kpi-trend positive">+15.2%</div>
+                        </div>
+                        <div class="kpi-content">
+                            <h3 class="kpi-label">Total Revenue</h3>
+                            <p class="kpi-value" id="totalRevenue">$54,706</p>
+                            <p class="kpi-sublabel">From 500 orders</p>
+                        </div>
+                    </div>
+                    
+                    <div class="kpi-card investment-card">
+                        <div class="kpi-header">
+                            <div class="kpi-icon">📊</div>
+                            <div class="kpi-trend neutral">+8.4%</div>
+                        </div>
+                        <div class="kpi-content">
+                            <h3 class="kpi-label">Total Investment</h3>
+                            <p class="kpi-value" id="totalCost">$31,494</p>
+                            <p class="kpi-sublabel">Across 50 influencers</p>
+                        </div>
+                    </div>
+                    
+                    <div class="kpi-card roi-card">
+                        <div class="kpi-header">
+                            <div class="kpi-icon">📈</div>
+                            <div class="kpi-trend positive">+5.8%</div>
+                        </div>
+                        <div class="kpi-content">
+                            <h3 class="kpi-label">Overall ROI</h3>
+                            <p class="kpi-value" id="roi">73.7%</p>
+                            <p class="kpi-sublabel">Return on investment</p>
+                        </div>
+                    </div>
+                    
+                    <div class="kpi-card roas-card">
+                        <div class="kpi-header">
+                            <div class="kpi-icon">🎯</div>
+                            <div class="kpi-trend positive">+0.12x</div>
+                        </div>
+                        <div class="kpi-content">
+                            <h3 class="kpi-label">ROAS</h3>
+                            <p class="kpi-value" id="roas">1.74x</p>
+                            <p class="kpi-sublabel">Return on ad spend</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="secondary-metrics">
+                    <div class="metric-item">
+                        <span class="metric-label">Influencers</span>
+                        <span class="metric-value" id="totalInfluencers">50</span>
+                    </div>
+                    <div class="metric-item">
+                        <span class="metric-label">Posts</span>
+                        <span class="metric-value" id="totalPosts">200+</span>
+                    </div>
+                    <div class="metric-item">
+                        <span class="metric-label">Orders</span>
+                        <span class="metric-value" id="totalOrders">500</span>
+                    </div>
+                    <div class="metric-item">
+                        <span class="metric-label">Avg Order Value</span>
+                        <span class="metric-value" id="avgOrderValue">$109.41</span>
+                    </div>
+                </div>
+
+                <div class="chart-section">
+                    <div class="chart-card">
+                        <div class="chart-header">
+                            <h3>Monthly Revenue Trend</h3>
+                            <p class="chart-subtitle">Performance over the last 6 months</p>
+                        </div>
+                        <canvas id="revenueChart"></canvas>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Platform Analytics Section -->
+            <section class="dashboard-section" id="platform-section">
+                <div class="analytics-grid">
+                    <div class="chart-card">
+                        <div class="chart-header">
+                            <h3>Platform Performance</h3>
+                            <p class="chart-subtitle">Revenue distribution by platform</p>
+                        </div>
+                        <canvas id="platformChart"></canvas>
+                    </div>
+                    
+                    <div class="chart-card">
+                        <div class="chart-header">
+                            <h3>Engagement Rates</h3>
+                            <p class="chart-subtitle">Average engagement by platform</p>
+                        </div>
+                        <canvas id="engagementChart"></canvas>
+                    </div>
+                </div>
+
+                <div class="platform-stats">
+                    <div class="platform-card instagram">
+                        <div class="platform-icon">📷</div>
+                        <div class="platform-info">
+                            <h4>Instagram</h4>
+                            <div class="platform-metrics">
+                                <span class="revenue">$18,713</span>
+                                <span class="percentage">34.2%</span>
+                            </div>
+                            <div class="platform-details">
+                                <span>171 orders • 6.5% engagement</span>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="platform-card youtube">
+                        <div class="platform-icon">📺</div>
+                        <div class="platform-info">
+                            <h4>YouTube</h4>
+                            <div class="platform-metrics">
+                                <span class="revenue">$12,387</span>
+                                <span class="percentage">22.6%</span>
+                            </div>
+                            <div class="platform-details">
+                                <span>113 orders • 7.45% engagement</span>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="platform-card tiktok">
+                        <div class="platform-icon">🎵</div>
+                        <div class="platform-info">
+                            <h4>TikTok</h4>
+                            <div class="platform-metrics">
+                                <span class="revenue">$14,677</span>
+                                <span class="percentage">26.8%</span>
+                            </div>
+                            <div class="platform-details">
+                                <span>142 orders • 6.09% engagement</span>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="platform-card twitter">
+                        <div class="platform-icon">🐦</div>
+                        <div class="platform-info">
+                            <h4>Twitter</h4>
+                            <div class="platform-metrics">
+                                <span class="revenue">$8,929</span>
+                                <span class="percentage">16.3%</span>
+                            </div>
+                            <div class="platform-details">
+                                <span>74 orders • 6.26% engagement</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Campaign Performance Section -->
+            <section class="dashboard-section" id="campaigns-section">
+                <div class="table-card">
+                    <div class="table-header">
+                        <div class="table-title">
+                            <h3>Campaign Performance Overview</h3>
+                            <p>Detailed breakdown by platform</p>
+                        </div>
+                        <button class="btn btn-outline" onclick="exportData('campaigns')">Export CSV</button>
+                    </div>
+                    <div class="table-container">
+                        <table class="data-table" id="campaignsTable">
+                            <thead>
+                                <tr>
+                                    <th onclick="sortTable('campaignsTable', 0)">Platform <span class="sort-icon">↕</span></th>
+                                    <th onclick="sortTable('campaignsTable', 1)">Reach <span class="sort-icon">↕</span></th>
+                                    <th onclick="sortTable('campaignsTable', 2)">Revenue <span class="sort-icon">↕</span></th>
+                                    <th onclick="sortTable('campaignsTable', 3)">Orders <span class="sort-icon">↕</span></th>
+                                    <th onclick="sortTable('campaignsTable', 4)">Engagement Rate <span class="sort-icon">↕</span></th>
+                                    <th onclick="sortTable('campaignsTable', 5)">AOV <span class="sort-icon">↕</span></th>
+                                </tr>
+                            </thead>
+                            <tbody id="campaignsTableBody">
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+
+                <div class="conversion-funnel">
+                    <div class="chart-card">
+                        <div class="chart-header">
+                            <h3>Conversion Funnel Analysis</h3>
+                            <p class="chart-subtitle">From impression to purchase</p>
+                        </div>
+                        <div class="funnel-steps">
+                            <div class="funnel-step">
+                                <div class="step-bar impressions"></div>
+                                <div class="step-info">
+                                    <span class="step-label">Impressions</span>
+                                    <span class="step-value">2.1M</span>
+                                </div>
+                            </div>
+                            <div class="funnel-step">
+                                <div class="step-bar clicks"></div>
+                                <div class="step-info">
+                                    <span class="step-label">Clicks</span>
+                                    <span class="step-value">42K</span>
+                                    <span class="step-rate">2.0%</span>
+                                </div>
+                            </div>
+                            <div class="funnel-step">
+                                <div class="step-bar visits"></div>
+                                <div class="step-info">
+                                    <span class="step-label">Website Visits</span>
+                                    <span class="step-value">28K</span>
+                                    <span class="step-rate">66.7%</span>
+                                </div>
+                            </div>
+                            <div class="funnel-step">
+                                <div class="step-bar conversions"></div>
+                                <div class="step-info">
+                                    <span class="step-label">Conversions</span>
+                                    <span class="step-value">500</span>
+                                    <span class="step-rate">1.8%</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Influencer Insights Section -->
+            <section class="dashboard-section" id="influencers-section">
+                <div class="influencer-leaderboard">
+                    <div class="chart-card">
+                        <div class="chart-header">
+                            <h3>Top Performing Influencers</h3>
+                            <p class="chart-subtitle">Revenue performance leaders</p>
+                        </div>
+                        <canvas id="topInfluencersChart"></canvas>
+                    </div>
+                </div>
+
+                <div class="influencer-categories">
+                    <h3>Performance by Category</h3>
+                    <div class="category-grid">
+                        <div class="category-card fitness">
+                            <div class="category-icon">💪</div>
+                            <div class="category-info">
+                                <h4>Fitness</h4>
+                                <div class="category-stats">
+                                    <span class="stat-item">15 Influencers</span>
+                                    <span class="stat-item">$16,412 Revenue</span>
+                                    <span class="stat-item">6.8% Engagement</span>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="category-card nutrition">
+                            <div class="category-icon">🥗</div>
+                            <div class="category-info">
+                                <h4>Nutrition</h4>
+                                <div class="category-stats">
+                                    <span class="stat-item">12 Influencers</span>
+                                    <span class="stat-item">$14,567 Revenue</span>
+                                    <span class="stat-item">7.1% Engagement</span>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="category-card wellness">
+                            <div class="category-icon">🧘</div>
+                            <div class="category-info">
+                                <h4>Wellness</h4>
+                                <div class="category-stats">
+                                    <span class="stat-item">10 Influencers</span>
+                                    <span class="stat-item">$12,234 Revenue</span>
+                                    <span class="stat-item">6.9% Engagement</span>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="category-card sports">
+                            <div class="category-icon">⚽</div>
+                            <div class="category-info">
+                                <h4>Sports</h4>
+                                <div class="category-stats">
+                                    <span class="stat-item">8 Influencers</span>
+                                    <span class="stat-item">$7,893 Revenue</span>
+                                    <span class="stat-item">6.4% Engagement</span>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="category-card lifestyle">
+                            <div class="category-icon">✨</div>
+                            <div class="category-info">
+                                <h4>Lifestyle</h4>
+                                <div class="category-stats">
+                                    <span class="stat-item">5 Influencers</span>
+                                    <span class="stat-item">$3,600 Revenue</span>
+                                    <span class="stat-item">7.3% Engagement</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="table-card">
+                    <div class="table-header">
+                        <div class="table-title">
+                            <h3>Influencer Performance Details</h3>
+                            <p>Complete performance breakdown</p>
+                        </div>
+                        <button class="btn btn-outline" onclick="exportData('influencers')">Export CSV</button>
+                    </div>
+                    <div class="table-container">
+                        <table class="data-table" id="influencersTable">
+                            <thead>
+                                <tr>
+                                    <th onclick="sortTable('influencersTable', 0)">Influencer <span class="sort-icon">↕</span></th>
+                                    <th onclick="sortTable('influencersTable', 1)">Platform <span class="sort-icon">↕</span></th>
+                                    <th onclick="sortTable('influencersTable', 2)">Category <span class="sort-icon">↕</span></th>
+                                    <th onclick="sortTable('influencersTable', 3)">Revenue <span class="sort-icon">↕</span></th>
+                                    <th onclick="sortTable('influencersTable', 4)">ROI <span class="sort-icon">↕</span></th>
+                                    <th onclick="sortTable('influencersTable', 5)">ROAS <span class="sort-icon">↕</span></th>
+                                </tr>
+                            </thead>
+                            <tbody id="influencersTableBody">
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Brand Analytics Section -->
+            <section class="dashboard-section" id="brands-section">
+                <div class="brand-comparison">
+                    <div class="brand-card muscleblaze-card">
+                        <div class="brand-header">
+                            <div class="brand-logo">MB</div>
+                            <div class="brand-info">
+                                <h3>MuscleBlaze</h3>
+                                <p class="brand-category">Sports Nutrition</p>
+                            </div>
+                        </div>
+                        <div class="brand-metrics">
+                            <div class="metric">
+                                <span class="metric-label">Revenue</span>
+                                <span class="metric-value">$17,089</span>
+                                <span class="metric-change positive">+12.3%</span>
+                            </div>
+                            <div class="metric">
+                                <span class="metric-label">Orders</span>
+                                <span class="metric-value">170</span>
+                            </div>
+                            <div class="metric">
+                                <span class="metric-label">AOV</span>
+                                <span class="metric-value">$100.52</span>
+                            </div>
+                        </div>
+                        <div class="brand-progress">
+                            <div class="progress-bar">
+                                <div class="progress-fill" style="width: 31.2%"></div>
+                            </div>
+                            <span class="progress-label">31.2% of total revenue</span>
+                        </div>
+                    </div>
+                    
+                    <div class="brand-card hkvitals-card">
+                        <div class="brand-header">
+                            <div class="brand-logo">HK</div>
+                            <div class="brand-info">
+                                <h3>HKVitals</h3>
+                                <p class="brand-category">Health & Wellness</p>
+                            </div>
+                        </div>
+                        <div class="brand-metrics">
+                            <div class="metric">
+                                <span class="metric-label">Revenue</span>
+                                <span class="metric-value">$18,679</span>
+                                <span class="metric-change positive">+15.7%</span>
+                            </div>
+                            <div class="metric">
+                                <span class="metric-label">Orders</span>
+                                <span class="metric-value">163</span>
+                            </div>
+                            <div class="metric">
+                                <span class="metric-label">AOV</span>
+                                <span class="metric-value">$114.60</span>
+                            </div>
+                        </div>
+                        <div class="brand-progress">
+                            <div class="progress-bar">
+                                <div class="progress-fill" style="width: 34.1%"></div>
+                            </div>
+                            <span class="progress-label">34.1% of total revenue</span>
+                        </div>
+                    </div>
+                    
+                    <div class="brand-card gritzo-card">
+                        <div class="brand-header">
+                            <div class="brand-logo">G</div>
+                            <div class="brand-info">
+                                <h3>Gritzo</h3>
+                                <p class="brand-category">Kids Nutrition</p>
+                            </div>
+                        </div>
+                        <div class="brand-metrics">
+                            <div class="metric">
+                                <span class="metric-label">Revenue</span>
+                                <span class="metric-value">$18,938</span>
+                                <span class="metric-change positive">+8.9%</span>
+                            </div>
+                            <div class="metric">
+                                <span class="metric-label">Orders</span>
+                                <span class="metric-value">167</span>
+                            </div>
+                            <div class="metric">
+                                <span class="metric-label">AOV</span>
+                                <span class="metric-value">$113.40</span>
+                            </div>
+                        </div>
+                        <div class="brand-progress">
+                            <div class="progress-bar">
+                                <div class="progress-fill" style="width: 34.6%"></div>
+                            </div>
+                            <span class="progress-label">34.6% of total revenue</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="analytics-grid">
+                    <div class="chart-card">
+                        <div class="chart-header">
+                            <h3>Brand Revenue Distribution</h3>
+                            <p class="chart-subtitle">Contribution to total revenue</p>
+                        </div>
+                        <canvas id="brandChart"></canvas>
+                    </div>
+                    
+                    <div class="chart-card">
+                        <div class="chart-header">
+                            <h3>Brand Performance Comparison</h3>
+                            <p class="chart-subtitle">Revenue vs Average Order Value</p>
+                        </div>
+                        <canvas id="brandComparisonChart"></canvas>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Financial Tracking Section -->
+            <section class="dashboard-section" id="financial-section">
+                <div class="financial-overview">
+                    <div class="finance-card total-investment">
+                        <div class="finance-header">
+                            <h3>Total Investment</h3>
+                            <div class="finance-icon">💳</div>
+                        </div>
+                        <div class="finance-value">$31,494</div>
+                        <div class="finance-details">
+                            <div class="detail-item">
+                                <span class="label">Post-based:</span>
+                                <span class="value">$18,567 (28 influencers)</span>
+                            </div>
+                            <div class="detail-item">
+                                <span class="label">Order-based:</span>
+                                <span class="value">$12,927 (22 influencers)</span>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="finance-card budget-utilization">
+                        <div class="finance-header">
+                            <h3>Budget Utilization</h3>
+                            <div class="finance-icon">📊</div>
+                        </div>
+                        <div class="utilization-chart">
+                            <div class="utilization-bar">
+                                <div class="utilized-bar" style="width: 87.2%"></div>
+                            </div>
+                            <div class="utilization-info">
+                                <span class="utilized">87.2% Utilized</span>
+                                <span class="remaining">12.8% Remaining</span>
+                            </div>
+                        </div>
+                        <div class="finance-details">
+                            <div class="detail-item">
+                                <span class="label">Monthly Budget:</span>
+                                <span class="value">$6,000</span>
+                            </div>
+                            <div class="detail-item">
+                                <span class="label">Avg Monthly Spend:</span>
+                                <span class="value">$5,249</span>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="finance-card cost-metrics">
+                        <div class="finance-header">
+                            <h3>Cost Analysis</h3>
+                            <div class="finance-icon">🎯</div>
+                        </div>
+                        <div class="cost-breakdown">
+                            <div class="cost-item">
+                                <span class="cost-label">Cost per Acquisition</span>
+                                <span class="cost-value">$62.99</span>
+                            </div>
+                            <div class="cost-item">
+                                <span class="cost-label">Cost per Post</span>
+                                <span class="cost-value">$157.47</span>
+                            </div>
+                            <div class="cost-item">
+                                <span class="cost-label">Cost per Click</span>
+                                <span class="cost-value">$0.75</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="payout-tracking">
+                    <div class="table-card">
+                        <div class="table-header">
+                            <div class="table-title">
+                                <h3>Payout Status</h3>
+                                <p>Payment tracking and status</p>
+                            </div>
+                            <div class="payout-summary">
+                                <div class="payout-stat paid">
+                                    <span class="stat-label">Paid</span>
+                                    <span class="stat-value">$28,647</span>
+                                </div>
+                                <div class="payout-stat pending">
+                                    <span class="stat-label">Pending</span>
+                                    <span class="stat-value">$2,847</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="table-container">
+                            <table class="data-table" id="payoutsTable">
+                                <thead>
+                                    <tr>
+                                        <th onclick="sortTable('payoutsTable', 0)">Influencer <span class="sort-icon">↕</span></th>
+                                        <th onclick="sortTable('payoutsTable', 1)">Payment Model <span class="sort-icon">↕</span></th>
+                                        <th onclick="sortTable('payoutsTable', 2)">Rate <span class="sort-icon">↕</span></th>
+                                        <th onclick="sortTable('payoutsTable', 3)">Performance <span class="sort-icon">↕</span></th>
+                                        <th onclick="sortTable('payoutsTable', 4)">Total Due <span class="sort-icon">↕</span></th>
+                                        <th>Status</th>
+                                    </tr>
+                                </thead>
+                                <tbody id="payoutsTableBody">
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
