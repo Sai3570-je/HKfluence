@@ -1,31 +1,24 @@
-```markdown
 # HKfluence
 
 ## Overview
 
-**HKfluence** is an open-source influencer marketing dashboard built for HealthKart teams. Track campaign ROI, incremental ROAS, influencer rankings, and payouts—across brands and social platforms. Designed to match HealthKart's branding for real-world usability and impact.
-
----
+**HKfluence** is an open-source influencer marketing dashboard built for HealthKart teams to track campaign ROI, incremental ROAS, influencer rankings, and payouts across brands (MuscleBlaze, HKVitals, Gritzo) and social platforms (Instagram, YouTube, Twitter, TikTok). Designed to match HealthKart's branding, it offers real-world usability and impact for data-driven marketing decisions.
 
 ## Features
 
-- Multi-platform analytics: Instagram, YouTube, Twitter, TikTok
-- Campaign performance & incremental ROAS
-- Influencer leaderboards and persona insights
-- Payout tracking (post- & order-based)
-- Dynamic filtering (brand, product, influencer, platform)
-- Exportable CSV reports
-- Responsive UI matching HealthKart’s design
-
----
+- **Multi-platform Analytics**: Track performance on Instagram, YouTube, Twitter, and TikTok.
+- **Campaign Performance**: Monitor revenue, orders, and engagement by influencer, brand, or channel.
+- **Incremental ROAS**: Calculate true advertising impact against a 15% organic baseline (configurable).
+- **Influencer Insights**: View leaderboards and persona segmentation to identify top/bottom performers.
+- **Payout Tracking**: Automatic calculations for post- or order-based contracts.
+- **Dynamic Filtering**: Filter by brand, product, influencer, or platform.
+- **Exportable Reports**: Download insights as CSV (PDF optional).
+- **Responsive UI**: Matches HealthKart’s branding with a mobile-friendly design.
 
 ## Demo
 
 Live Demo:  
-`https://your-demo-link.com`  
-*(Replace with your live dashboard URL)*
-
----
+[HealthKart Influencer Dashboard Demo](https://ppl-ai-code-interpreter-files.s3.amazonaws.com/web/direct-files/e6ac23580dfe8f64d0cb69d39eb11b6c/38f32d4d-b1aa-417d-a117-6b1cef73a5f7/index.html)
 
 ## Data Model
 
@@ -36,115 +29,82 @@ Live Demo:
 | tracking_data   | source, campaign, influencer_id, user_id, product, date, orders, revenue |
 | payouts         | influencer_id, basis (post/order), rate, orders, total_payout         |
 
----
-
 ## Getting Started
 
 ### Prerequisites
 
-- Node.js (for advanced use) OR Python 3 (for static server)
-- Git (for cloning the repo)
+- **Node.js** (optional, for advanced deployment) or **Python 3** (for static server)
+- **Git** (for cloning the repo)
+- **VS Code** with [Live Server extension](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer) (optional)
 
 ### Installation
 
-1. **Clone the repository:**
-    ```
-    git clone https://github.com/Sai3570-je/HKfluence.git
-    cd HKfluence
-    ```
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/Sai3570-je/HKfluence.git
+   cd HKfluence
+   Run a local server:
+bash
 
-2. **Run a local server:**
-    ```
-    # Option 1: Python
-    python -m http.server 8000
+Collapse
 
-    # Option 2: Node.js (if installed)
-    npx http-server
+Wrap
 
-    # Option 3: Use "Live Server" VS Code extension
-    ```
+Run
 
-3. **View in browser:**  
-   Navigate to `http://localhost:8000`
+Copy
+# Option 1: Python
+python -m http.server 8000
 
----
+# Option 2: Node.js
+npx http-server
 
-## Usage
+# Option 3: Use Live Server in VS Code
+View in browser:
+Navigate to http://localhost:8000
+Usage
+Upload Data: Import campaign CSVs via the “Upload Data” button or use sample data.
+Filter & Analyze: Slice metrics by platform, brand, influencer, or date.
+Export Reports: Download analytics as CSV from the export menu.
+Payouts: View influencer compensation details in the Payouts tab.
+Project Structure
+text
 
-- Use "Upload Data" to import campaign CSVs, or try demo data
-- Use filters to analyze by brand, influencer, or platform
-- Download insights as CSV via Export menu
-- See Payouts tab for influencer compensation
+Collapse
 
----
+Wrap
 
-## Structure
-
-```
+Copy
 HKfluence/
-├── index.html
-├── /data               # Sample datasets
-├── /src
-│   ├── /components
-│   ├── /pages
-│   └── /utils
-├── /assets             # Fonts, HealthKart logo, colors
-└── README.md
-```
+├── index.html           # Main dashboard UI
+├── data/                # Sample datasets (CSV/JSON)
+├── src/
+│   ├── components/      # UI components (charts, tables, filters)
+│   ├── pages/           # Dashboard modules and views
+│   └── utils/           # Data processing and analytics helpers
+├── assets/              # Brand colors, fonts, logo
+├── README.md
+└── CONTRIBUTING.md
+Key Assumptions
+Simulated Data: All influencer, post, and revenue data is simulated.
+Attribution: Revenue/orders tied to influencers via tracking_data.
+Incremental ROAS: Calculated against a 15% organic baseline (configurable).
+Payouts: Influencers paid per post or per order, not both in one campaign.
+No Live API: Uses CSV uploads or demo data (API hooks possible for production).
+Technology Stack
+Frontend: HTML5, CSS3, Vanilla JavaScript
+Charts: Chart.js for visualizations
+Export: CSV via browser-based download
+Deployment: Static site compatible with Netlify, Vercel, or Railway
+Optional PDF: PyMuPDF for offline PDF processing
+Deployment
+Push to GitHub and deploy via Netlify, Vercel, or Railway.
+For Railway, see deployment notes in the project wiki.
+Insights & Reporting
+Insights Tab: View campaign summaries in PDF or Notion format.
+Leaderboard & ROI: Optimize budget allocation and flag underperformers.
+Contribution
+Pull requests are welcome! See CONTRIBUTING.md for guidelines.
 
----
-
-## Key Assumptions
-
-- All provided data is simulated
-- Attribution is set by tracking_data links
-- Incremental ROAS is calculated vs. a 15% organic baseline (configurable)
-- Influencers are on either post- or order-based payouts per campaign
-- No live API; use CSV uploads or demo data
-
----
-
-## Technology
-
-- Frontend: HTML5, CSS3, JavaScript (Chart.js for graphs)
-- Static hosting: Netlify, Vercel, Railway supported
-
----
-
-## Deployment
-
-- Push to GitHub, link with your preferred static host, and deploy
-
----
-
-## Insights & Reporting
-
-- "Insights" tab includes analysis PDF
-- ROI & leaderboard tabs help allocate budget and flag under-performers
-
----
-
-## Contribution
-
-Pull requests are welcome!  
-See `CONTRIBUTING.md` for guidelines.
-
----
-
-## License
-
+License
 MIT
-
----
-
-## Contact
-
-For questions, feedback, or issues:  
-- Open a GitHub Issue  
-- Email: your.email@domain.co
-
----
-
-*Replace placeholders (URL, email, etc.) as needed. This structure ensures clarity and prevents formatting errors in your repository.*
-```
-Copy and save this content as `README.md` in your repository. This will prevent formatting issues and makes your project easy to understand for reviewers and collaborators.
